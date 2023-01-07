@@ -1,0 +1,54 @@
+#me-img{
+text-align: center;
+padding-top: 3em;
+padding-left: 1em;
+padding-right: 1em;
+padding-bottom: 1em;
+}
+.name{
+    border: 1px solid #c5baaf;
+    padding-bottom: 1em;
+
+
+}
+.content {
+    max-width: 600px;
+    margin: auto;
+  }
+header{
+ padding-left: 2em;
+}
+header, .header-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   background-color: #424b54;
+   color:#c5baaf;
+
+}
+main, .lesson-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+}
+.footer-grid{
+    display: grid;
+    background-color: #424b54;
+   color:#c5baaf;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align: center;
+   font-size: 20px;
+
+}
+.lesson-links{
+    grid-column: 1/1;
+    grid-row: 1/2;
+    font-size: 20px;
+    padding-bottom: 2em;
+    padding-top: 5em;
+}
+.assignment-heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    grid-column: 1/1;
+    grid-row: 1/2;
+}
