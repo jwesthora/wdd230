@@ -1,0 +1,33 @@
+/* lesson #2 - design principles START---------*/
+/* 
+.item1{
+    grid-column-start: 1;
+    grid-column-end:3;
+}
+*/
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.column-1{
+    grid-column-start: 1;
+    grid-column-end:2;
+}
+.column-2{
+    grid-column-start: 2;
+    grid-column-end:3;
+}
+.column-3{
+    grid-column-start: 3;
+    grid-column-end:3;
+}
+.design-principles-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+
+
+}
+/* large view....*/
+@media only screen and (min-width: 60em) {
+
+}
