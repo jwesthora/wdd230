@@ -16,7 +16,7 @@ try {
 	console.log("Error with code or your browser does not support Locale");
 }
 
-// Long hand method ... building day and month names from built-in date methods.
+// Long hand method ... the building day and month names from built-in date methods.
 const daynames = [
 	"Sunday",
 	"Monday",
