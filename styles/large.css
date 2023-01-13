@@ -5,7 +5,7 @@
     grid-column-end:3;
 }
 */
-h1{
+h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .column-1{
@@ -20,7 +20,7 @@ h1{
     grid-column-start: 3;
     grid-column-end:3;
 }
-.design-principles-grid{
+lesson2, .design-principles-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 50px;
