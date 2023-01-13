@@ -68,22 +68,3 @@ main,
     grid-row: 1/2;
 }
 
-/* lesson #2 - design principles START---------*/
-h3, h4, h5{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-}
-main, .design-principles-grid{
-    display: grid;
-    grid-template-columns: 1f;
-
-}
-/* 
-small css
-grid-template-columns: 1fr;
-
-medium css
-grid-template-columns: 1fr 1fr;
-
-large css
-grid-template-columns: 1fr 1fr 1fr;
