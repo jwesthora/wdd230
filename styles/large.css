@@ -5,10 +5,11 @@
     grid-column-end:3;
 }
 */
-h3{
+h3, h4, h5{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
-.column-1{
+#column-1{
     grid-column-start: 1;
     grid-column-end:2;
 }
@@ -20,11 +21,10 @@ h3{
     grid-column-start: 3;
     grid-column-end:3;
 }
-lesson2, .design-principles-grid{
+main, .design-principles-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 50px;
-
 
 }
 /* large view....*/

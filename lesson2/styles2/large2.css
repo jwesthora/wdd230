@@ -1,0 +1,77 @@
+/* lesson #2 - design principles START---------*/
+/* 
+.item1{
+    grid-column-start: 1;
+    grid-column-end:3;
+}
+
+h3, h4, h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.column-1{
+    grid-column-start: 1;
+    grid-column-end:1;
+}
+.column-2{
+    grid-column-start: 2;
+    grid-column-end:3;
+}
+.column-3{
+    grid-column-start: 3;
+    grid-column-end:3;
+}
+/*main, .design-principles-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+
+}*/
+/* lesson #2 - design principles START---------*/
+@media only screen and (max-width: 600px) {
+    h3, h4, h5{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    }
+    main, .design-principles-grid{
+        display: grid;
+        grid-template-columns: 1f;
+    
+    }
+    body {
+      background-color: lightblue;
+    }
+  }
+h3, h4, h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+main, .design-principles-grid{
+    display: grid;
+    grid-template-columns: 1f;
+    column-gap: 50px;
+    width: 100%;
+
+}
+@media only screen and (min-width: 32.5em) {
+    main, .design-principles-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+    h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        border: 6px solid #c5baaf;
+    }
+}
+/* large view....*/
+@media only screen and (min-width: 60em) {
+    main, .design-principles-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+    
+    }
+
+}

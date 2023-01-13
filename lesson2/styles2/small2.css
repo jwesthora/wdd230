@@ -1,0 +1,31 @@
+/* lesson #2 - design principles START---------*/
+h3, h4, h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+main, .design-principles-grid{
+    display: grid;
+    grid-template-columns: 1f;
+
+}
+@media only screen and (min-width: 32.5em) {
+    main, .design-principles-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        border: 6px solid #c5baaf;
+    }
+}
+/* large view....*/
+@media only screen and (min-width: 60em) {
+    main, .design-principles-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 50px;
+    
+    }
+
+}
