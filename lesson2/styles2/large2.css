@@ -38,17 +38,21 @@ header{
     body {
       background-color: #c5baaf;
     }
+    img{
+        border-style: solid;
+
+    }
   
  p, h3, h4, h5{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
-    text-align: canter;
+    text-align: center;
 }
 main, .design-principles-grid{
     display: grid;
     grid-template-columns: 1f;
     column-gap: 20px;
-    width: 100%;
+    
 
 }
 @media only screen and (min-width: 37.5em) {
@@ -71,7 +75,10 @@ main, .design-principles-grid{
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 20px;
         width: 900px;
-    
+        
+    }
+    header{
+        font-size: 10px;
     }
 
 }
