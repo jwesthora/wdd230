@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <title>Document</title>
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -13,34 +14,43 @@
 </head>
 
 <body>
-    <div class="design-principles-grid">
-        <div class="row">
-            <div class="column-1">
-                <h1>Contrast</h1>
-                <p>Apple</p>
-                <a href="https://www.apple.com/">apple.com</a>
-                <div class="apple">
-                    <img src="/images/rsz_apple.jpeg" alt="red apple">
-                </div>
+    <main class="design-principles-grid">
+
+        <section id="column-1">
+            <h3>Contrast</h3>
+            <p>Apple</p>
+            <a href="https://www.apple.com/">apple.com</a>
+            <div class="apple">
+                <img src="/images/rsz_apple.jpeg" alt="red apple">
             </div>
-            <div class="column-2">
-                <h1>Repetition</h1>
-                <p>Recipe Runner</p>
-                <a href="https://reciperunner.com/">RecipeRunner.com</a>
-                <div class="recipe_runner">
-                    <img src="/images/rsz_recipe_runner.jpeg" alt="soup">
-                </div>
+        </section>
+        <section id="column-2">
+            <h4>Repetition</h4>
+            <p>Recipe Runner</p>
+            <a href="https://reciperunner.com/">RecipeRunner.com</a>
+            <div class="recipe_runner">
+                <img src="/images/rsz_recipe_runner.jpeg" alt="soup">
             </div>
-            <div class="column-3">
-                <h1>Proximity</h1>
-                <p>USA Furniture And Leather</p>
-                <a href="https://oakonline.com/?gclid=Cj0KCQiA_P6dBhD1ARIsAAGI7HAsdLN49Xhyp7pt0MkaTsfNDr_i9tlEHPSep3HCpYKrH5oVPMhltuMaAuDMEALw_wcB">USAFurnitureAndLeather.com</a>
-                <div class="furniture">
-                    <img src="/images/rsz_furniture.jpeg" alt="desk">
-                </div>
-                
+        </section>
+        <section id="column-3">
+            <h5>Proximity</h5>
+            <p>USA Furniture And Leather</p>
+            <a
+                href="https://oakonline.com/?gclid=Cj0KCQiA_P6dBhD1ARIsAAGI7HAsdLN49Xhyp7pt0MkaTsfNDr_i9tlEHPSep3HCpYKrH5oVPMhltuMaAuDMEALw_wcB">USAFurnitureAndLeather.com</a>
+            <div class="furniture">
+                <img src="/images/rsz_furniture.jpeg" alt="desk">
             </div>
-        </div>
+
+        </section>
+    </main>
+
+    <div class="footer-grid">
+        <footer>&copy: 2023 | Jill Westhora | BYU- Idaho WDD 230
+            <br>
+            <p>
+                <span id="date1"><script src="/scripts/app.js"></script></span>
+            </p>
+        </footer>
     </div>
 
     <script src="scripts/app.js"></script>
