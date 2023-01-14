@@ -26,7 +26,6 @@ header{
     main{
         padding: 20px;
         max-width: 1600px;
-        margin: auto;
     }
     section{
         padding: 10px;
@@ -80,6 +79,5 @@ main, .design-principles-grid{
     header{
         font-size: 10px;
     }
-    
 
 }
