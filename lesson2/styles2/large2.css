@@ -33,6 +33,7 @@ header{
         border-width: 2px;
         border-radius: 20px;
         justify-content: center;
+        width: min-content;
         
     }
     body {
@@ -60,7 +61,6 @@ main, .design-principles-grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 20px;
-        width: 750px;
     }
     h1 {
         font-size: 4.5rem;
@@ -74,7 +74,6 @@ main, .design-principles-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 20px;
-        width: 800px;
     }
     header{
         font-size: 10px;
