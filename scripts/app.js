@@ -12,7 +12,7 @@ try {
 		year: "numeric"
 		
 	};
-	date1.innerHTML = `Last modified: <span class="highlight">${new Date().toLocaleDateString("en-UK", options)}</span>!`;
+	date1.innerHTML = `Last modified: <span class="highlight"> ${new Date().toLocaleDateString("en-UK", options)}'</span>!`;
 } catch (e) {
 	console.log("Error with code or your browser does not support Locale");
 }
@@ -41,10 +41,12 @@ const months = [
 	"November",
 	"December"
 ];
-const d = new Date();
+const d = new Date(document.lastModified);
 const dayName = daynames[d.getDay()];
 const monthName = months[d.getMonth()];
 const year = d.getFullYear();
-const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
+const time_hours = d.getTime();
+const time_minutes= d.getMinutes();
+const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year} ${time_hours}:${time_minutes}`;
 document.querySelector("#date2").textContent = fulldate;
-`Current Date: ${dayName}, ${monthName} ${d.getDate()}, ${year}`;
+`Current Date: ${dayName}, ${monthName} ${d.getDate()}, ${year}, ${time_hours}:${time_minutes}`;
