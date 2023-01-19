@@ -35,10 +35,13 @@ header{
         border-radius: 20px;
         justify-content: center;
         width: min-content;
+        font-family: 'Dosis', sans-serif;  
         
     }
     body {
       background-color: #c5baaf;
+      font-family: 'Dosis', sans-serif;
+      
     }
     img{
         border-style: solid;
@@ -46,13 +49,13 @@ header{
     }
   
  p, h3, h4, h5{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Dosis', sans-serif; 
     font-size: 30px;
     text-align: center;
 }
 main, .design-principles-grid{
     display: grid;
-    grid-template-columns: 1f;
+    grid-template-columns: 1fr;
     column-gap: 20px;
     
 
