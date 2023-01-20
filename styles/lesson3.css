@@ -1,4 +1,16 @@
-
+img{
+    align-items: center;
+    
+}
+.footer-grid {
+    display: grid;
+    background-color:#511c29;
+    color:#a29c9b;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 3em;
+    font-size: 20px;
+}
 h1{
     font-size: 4.5rem;
 }
