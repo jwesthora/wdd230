@@ -1,0 +1,86 @@
+
+h1{
+    font-size: 4.5rem;
+}
+.primary{
+  background-color:#56494e; 
+  color: white; 
+}
+.secondary{
+    background-color:#a29c9b;
+    color: white;
+}
+.accent1{
+    background-color:#511c29;
+    color: white;
+}
+.accent2{
+    background-color:#a62639 ;
+    color: white;
+}
+
+.colors {
+ width: 100%;
+ min-width: 350px;
+ margin: 30px auto;
+ text-align: center;
+ border-style: solid;
+ 
+}
+
+.colors td{
+ width: 25%;
+ height: 3em;
+}
+
+
+header{
+    background-color: #511c29;
+    color: #a29c9b;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 3em;
+}
+p{
+    font-size: 20px;
+    text-align: left;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-family: 'Dosis', sans-serif; 
+}
+a{
+    background-color: #a29c9b;
+    font-size: 20px;
+    color:#56494e;
+    padding: 20px;
+}
+main{
+    align-content: center;
+    color:#511c29;
+    background-color:#a29c9b;
+    padding: 1em;
+   }
+/* medium view...*/
+@media only screen and (min-width: 37.5em) {
+    
+       
+    }
+    h3, h4, h5, h6 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+    }
+
+/* large view....*/
+@media only screen and (min-width: 60em) {
+    
+    header{
+        font-size: 20px;
+    }
+    a{
+        font-size: 20px;
+        padding: 20px
+    }
+
+}
