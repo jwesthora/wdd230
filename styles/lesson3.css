@@ -1,3 +1,7 @@
+nav{
+    background-color:#56494e; 
+  color: white;
+}
 .tree-logo{
     align-items: center;
     
@@ -55,7 +59,7 @@ header{
 }
 p{
     font-size: 20px;
-    text-align: left;
+    text-align: Center;
     padding: 1em;
     padding-left: 3em;
     padding-right: 3em;
@@ -64,7 +68,7 @@ p{
 a{
     background-color: #a29c9b;
     font-size: 20px;
-    color:#56494e;
+    color:white;
     padding: 20px;
 }
 main{
