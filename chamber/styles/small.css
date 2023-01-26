@@ -1,0 +1,130 @@
+/*.grid-header{
+  display: grid;
+
+}*/
+.main-grid{
+  display: grid;
+  gap: 50px 100px;
+
+}
+header{
+  background-color: #511c29;
+  color: #a29c9b;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: 0 auto;
+	border-bottom: 1px solid #a29c9b;
+}
+.logo{
+  display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
+.headings{
+  display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+}
+.headings h1 {
+	font-size: 1.5rem;
+}
+.c {
+	letter-spacing: 1pt;
+	color: #a29c9b;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+.social {
+	margin-right: 1.5rem;
+}
+footer{
+  background-color: #511c29;
+  color: #a29c9b;
+}
+/*.footer-grid{
+  display: grid;
+  
+}*/
+  
+  /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  body {
+	font-family:'Raleway', sans-serif ;
+}
+
+/* Mobile View ***************/
+
+	nav{
+  margin: 0 auto;
+	max-width: 760px;
+	background-color: #a62639;
+}
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+#menu::before {
+	content: "≡";
+	font-size: 2rem;
+}
+
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: #56494e;
+}
+
+
+.responsive li {
+	display: block;
+}
+
+.responsive #menu::before {
+	content: "X";
+}

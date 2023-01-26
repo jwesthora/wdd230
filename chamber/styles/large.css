@@ -1,0 +1,13 @@
+/* large view....*/
+@media only screen and (min-width: 60em) {
+    
+  header{
+      font-size: 20px;
+  }
+  a{
+      font-size: 20px;
+      padding: 20px
+  }
+
+}
+
