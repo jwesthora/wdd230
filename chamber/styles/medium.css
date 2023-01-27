@@ -1,15 +1,89 @@
-@media only screen and (min-width: 32.5em) {
-	header img {
-		width: 100%;
-	}
+@media only screen and (min-width: 35rem) {
+/* styling for hamburger button START*/
+nav ul {display: none;}
+nav ul.open {display: block;}
 
-	.headings h1 {
-		font-size: 2rem;
-		margin: 0;
-	}
-
-	.c {
-		letter-spacing: 1.5pt;
-		font-size: 0.9rem;
-	}
+nav button {
+  margin: 2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color:#a29c9b
 }
+nav {
+  background-color: #a62639;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav  ul{
+  display: none;
+}
+nav ul li a {
+  display: block;
+  padding: .8rem 2vw;
+  text-decoration: none;
+  color: #a29c9b;
+  border-top: 1px solid rgba(0,0,0,0.5);
+}
+nav ul li a:hover {
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+}
+nav ul li.active a {
+  background-color: rgba(0,0,0,0.2);
+}
+    #hamburgerBtn span:nth-child(1){display:block}
+    #hamburgerBtn span:nth-child(2){display: none;}
+    #hamburgerBtn.open span:nth-child(1){display:none}
+    #hamburgerBtn.open span:nth-child(2){display: block;}
+    /*style hamburger button END*/
+
+
+    /* Style for main section*/
+    .main-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      
+  }
+  
+  main, .spot1 {
+      grid-column-start: 1;
+      grid-column-end: 2; 
+      grid-row: 3/4;
+  }
+  main, .spot2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 3/4;
+  }
+ 
+  main, .hero {
+      grid-column: 1/4;
+      grid-row: 1/2;
+  }
+  main .event{
+      grid-column: 1/3;
+      grid-row: 5/6;
+      column-gap: 20px;
+  }
+  main .weather{
+      grid-column: 2/4;
+      grid-row: 5/6;
+      column-gap: 20px;
+  }
+  main .join{
+      grid-column: 1/4;
+      grid-row: 4/5;
+  }
+  main .release{
+      grid-column: 1/4;
+      grid-row: 2/3;
+  }
+
+}
+
+

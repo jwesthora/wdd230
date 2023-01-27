@@ -2,24 +2,55 @@
   display: grid;
 
 }*/
-.main-grid{
-  display: grid;
-  gap: 50px 100px;
+/* styling for hamburger button START*/
+nav ul {display: none;}
+nav ul.open {display: block;}
 
+nav button {
+  margin: .2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color:#a29c9b
 }
+nav {
+  background-color: #a62639;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav  ul{
+  display: none;
+}
+nav ul li a {
+  display: block;
+  padding: .8rem 2vw;
+  text-decoration: none;
+  color: #a29c9b;
+  border-top: 1px solid rgba(0,0,0,0.5);
+}
+nav ul li a:hover {
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+}
+nav ul li.active a {
+  background-color: rgba(0,0,0,0.2);
+}
+   
+/* styling for hamburger button END*/
+
 header{
+  text-align: center;
+}
+.grid-header{
   background-color: #511c29;
   color: #a29c9b;
-  padding: 5px 0;
-  display: flex;
-  align-items: center;
-	justify-content: space-between;
-	max-width: 900px;
-	margin: 0 auto;
-	border-bottom: 1px solid #a29c9b;
+  display: grid;
 }
-.logo{
-  display: flex;
+.logo, img{
+  padding-top: 10px;
 	align-items: center;
 	margin-left: 1rem;
 }
@@ -28,26 +59,34 @@ header{
 	flex-direction: column;
 	margin-left: .5rem;
 }
-.headings h1 {
+header, .header1 {
 	font-size: 1.5rem;
+  align-content: right;
+  padding-left: 20px;
 }
-.c {
-	letter-spacing: 1pt;
-	color: #a29c9b;
-	font-weight: 700;
-	font-size: 0.8rem;
-}
+
 .social {
-	margin-right: 1.5rem;
+	float: right;
 }
-footer{
-  background-color: #511c29;
-  color: #a29c9b;
-}
-/*.footer-grid{
-  display: grid;
-  
-}*/
+
+  footer{
+    background-color: #511c29;
+    color: #a29c9b;
+    text-align: center;
+    display: grid;
+    font-size: 20px;
+  }
+  footer img{
+    padding: 10px;
+  }
+  iframe{
+    border: #a29c9b;
+    padding: 5px;
+  }
+  .year1{
+    padding: 10px;
+    padding-bottom: 20px;
+  }
   
   /* Style all font awesome icons */
 .fa {
@@ -81,50 +120,29 @@ footer{
 	font-family:'Raleway', sans-serif ;
 }
 
-/* Mobile View ***************/
-
-	nav{
-  margin: 0 auto;
-	max-width: 760px;
-	background-color: #a62639;
-}
-.navigation {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-.navigation li:first-child {
-	display: block;
-}
-.navigation li {
-	display: none;
-}
-.navigation a {
-	display: block;
-	padding: 0.75rem;
-	text-align: left;
-	text-decoration: none;
-	color: black;
-	font-weight: 700;
-	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
-}
-
-#menu::before {
-	content: "≡";
-	font-size: 2rem;
-}
-
-.navigation a:hover, navigation a:active {
-	color: white;
-	background-color: #56494e;
+/* main section boxing START*/
+main{
+  display: grid;
+  flex-direction: column;
+  background-color: #a29c9b;
+  row-gap: 50px;
 }
 
 
-.responsive li {
-	display: block;
+main div{
+  border-style: solid;
+  padding: 50px 20px;
 }
+main .spot1,.spot2{
+  border-style: solid;
+  padding: 50px 20px;
+  border-collapse: collapse ; 
+}
+@media only screen and (max-width: 460px) {
+  main .join{
+    display: none;
+  }
 
-.responsive #menu::before {
-	content: "X";
 }
+  
+

@@ -31,7 +31,7 @@
             </section>
             <p>
                 <span id="date1">
-                    <script src="scripts/app.js"></script>
+                    <script src="./scripts/app.js"></script>
                 </span>
             </p>
 
@@ -45,57 +45,56 @@
                 <a href="#" class="fa fa-twitter"></a>
             </div>
 
-            <nav>
-                <ul class="navigation">
-                    <li><a id="menu" href="#"></a></li>
-                    <a href="#">Home</a>
-                    <a href="#">Discover</a>
-                    <a href="#">Directory</a>
-                    <a href="#">Join</a>
-                    <a href="#">Contact</a>
+            <nav class="menu">
+                <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+                <ul id="primaryNav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+
                 </ul>
             </nav>
 
         </div>
     </header>
-    <main>
-        <div class="main-grid">
-            <div class="hero">hero Image</div> 
-            <div class="action">call to action</div>
-            <div class="news">news</div>
-            <div class="events">events</div>
-            <div class="weather">weather</div>
-            <div class="join">join</div>
-            <div class="cs1">company spotlight1</div>
-            <div class="cs2">company spotlight2</div>
-        </div>
+    <section>
+        <main>
+            <div class="main-grid">
+                <div class="hero">Hero with site name and call to action</div> 
+                <div class="action">Event</div>
+                <div class="weather">Weather</div>
+                <div class="release">News Release</div>
+                <div class="spot1">Spotlight 1</div>
+                <div class="spot2">Spotlight 2</div>
+                <div class="join">Join</div>
+            
+            </div>
 
-
-
-
-    </main>
+        </main>
+    </section>
     <footer>
         <div class="footer-grid">
             <div class="tree-logo">
                 <img src="images/logo.jpeg" alt="tree">
             </div>
             <div class="contact">
-                <p>info@portland.org
-                    <br>
+                <p>info@portland.org<br>
                     (503) 5555-0555
-                    <iframe
+                </p>
+                <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d357682.6187531592!2d-122.9352948533961!3d45.54236973848703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950b0b7da97427%3A0x1c36b9e6f6d18591!2sPortland%2C%20OR!5e0!3m2!1sen!2sus!4v1674691760460!5m2!1sen!2sus"
                         width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </p>
             </div>
 
 
             <p>
             <div class="year1">
                 &copy;
-                <span id="year"></span>
-                Portland Oregon Chamber | Jill Westhora | WDD 230 Project
+                <span id="year"><script src="scripts/app.js"></script></span>
+                Portland Oregon Chamber of Commerce | Jill Westhora | WDD 230 Project
             </div>
     </footer>
 </body>
