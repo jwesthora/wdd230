@@ -52,3 +52,10 @@ const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year} ${time_hours}:
 document.querySelector("#date1").textContent = fulldate;
 document.querySelector("#year").textContent = `${year}`;
 `Current Date: ${dayName}, ${monthName} ${d.getDate()}, ${year}, ${time_hours}:${time_minutes}:${time_seconds}`;
+
+function toggleMenu() {
+	document.getElementById("primaryNav").classList.toggle("open");
+	document.getElementById("hamburgerBtn").classList.toggle("open");
+}
+	const x = document.getElementById('hamburgerBtn')
+	x.onlick = toggleMenu;

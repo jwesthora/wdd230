@@ -1,4 +1,4 @@
-//const h1 = document.querySelector('h1');//
+const h1 = document.querySelector('h1');
 // Select the HTML element to manipulate
 const date1 = document.querySelector("#date1");
 const message = document.querySelector("#emessage");
@@ -48,11 +48,10 @@ const year = d.getFullYear();
 const time_hours = d.getHours();
 const time_minutes= d.getMinutes();
 const time_seconds = d.getSeconds();
-const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year} `;
+const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year} ${time_hours}:${time_minutes}:${time_seconds}`;
 document.querySelector("#date1").textContent = fulldate;
-document.getElementById("year").innerHTML =`${year}`;
-`Current Date: ${dayName}, ${monthName} ${d.getDate()}, ${year}`;
-
+document.querySelector("#year").textContent = `${year}`;
+`Current Date: ${dayName}, ${monthName} ${d.getDate()}, ${year}, ${time_hours}:${time_minutes}:${time_seconds}`;
 
 function toggleMenu() {
 	document.getElementById("primaryNav").classList.toggle("open");
