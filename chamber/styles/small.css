@@ -22,11 +22,14 @@ nav ul {
   width: 100%;
   text-align: center;
 }
+nav {
+  background-color: #a62639;
+}
 nav ul.open{
   display: flex;
   left: 0%;
   flex-direction: column;
-  background-color: #511c29;
+  background-color: #56494e;
   color: black;
   width: 100%;
   }

@@ -25,7 +25,7 @@ nav ul li a {
   display: block;
   padding: .8rem 2vw;
   text-decoration: none;
-  color: #a29c9b;
+  color: white;
   border-top: 1px solid rgba(0,0,0,0.5);
 }
 nav ul li a:hover {
