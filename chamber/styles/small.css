@@ -2,7 +2,58 @@
   display: grid;
 
 }*/
-/* styling for hamburger button START*/
+
+/* hamburger try #2 START*/
+nav button {
+  margin: .2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color:#a29c9b
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  left: 100%;
+  top: 9rem;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+nav ul.open{
+  display: flex;
+  left: 0%;
+  flex-direction: column;
+  background-color: #56494e;
+  color: white;
+  width: 100%;
+  }
+nav ul li a {
+  display: block;
+  padding: .8rem 2vw;
+  text-decoration: none;
+  color: #a29c9b;
+  border-top: 1px solid rgba(0,0,0,0.5);
+}
+#hamburgerBtn span:nth-child(1){display:block}
+#hamburgerBtn span:nth-child(2){display: none;}
+#hamburgerBtn.open span:nth-child(1){display:none}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+
+nav {
+  grid-column: 3/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* styling for hamburger button START
 nav ul {display: none;}
 nav ul.open {display: block;}
 
@@ -39,7 +90,7 @@ nav ul li.active a {
   background-color: rgba(0,0,0,0.2);
 }
    
-/* styling for hamburger button END*/
+ styling for hamburger button END*/
 
 header{
   text-align: center;
@@ -50,24 +101,23 @@ header{
   display: grid;
 }
 .logo, img{
-  padding-top: 10px;
+  padding-top: 5px;
 	align-items: center;
-	margin-left: 1rem;
+	
 }
 .headings{
   display: flex;
 	flex-direction: column;
-	margin-left: .5rem;
+	
 }
 header, .header1 {
 	font-size: 1.5rem;
-  align-content: right;
-  padding-left: 20px;
+  /*padding-left: 10px;*/
 }
 
-.social {
+/*.social {
 	float: right;
-}
+}*/
 
   footer{
     background-color: #511c29;
@@ -131,10 +181,9 @@ main{
 
 main div{
   border-style: solid;
-  padding: 50px 20px;
+  padding: 50px 10px;
 }
-main .spot1,.spot2{
-  border-style: solid;
+.spot1{
   padding: 50px 20px;
   border-collapse: collapse ; 
 }
@@ -144,5 +193,179 @@ main .spot1,.spot2{
   }
 
 }
+  
+/*.grid-header{
+  display: grid;
+
+}*/
+/* styling for hamburger button START*//*
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+nav button {
+
+  margin: .2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color:#a29c9b
+}
+nav {
+  background-color: #a62639;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav  ul{
+  display: none;
+}
+nav ul li a {
+  display: block;
+  padding: .8rem 2vw;
+  text-decoration: none;
+  color: #a29c9b;
+  border-top: 1px solid rgba(0,0,0,0.5);
+}
+nav ul li a:hover {
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+}
+nav ul li.active a {
+  background-color: rgba(0,0,0,0.2);
+}
+   
+/* styling for hamburger button END*/
+
+header{
+  text-align: center;
+}
+.grid-header{
+  background-color: #511c29;
+  color: #a29c9b;
+  display: grid;
+}
+.logo, img{
+  padding-top: 10px;
+	align-items: center;
+	margin-left: 1rem;
+}
+.headings{
+  display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+}
+header, .header1 {
+	font-size: 1rem;
+  align-content: stretch;
+  padding-left: 20px;
+}
+
+
+.social {
+	float: right;
+}
+
+  footer{
+    background-color: #511c29;
+    color: #a29c9b;
+    text-align: center;
+    display: grid;
+    font-size: 20px;
+  }
+  footer img{
+    padding: 10px;
+  }
+  iframe{
+    border: #a29c9b;
+    padding: 5px;
+  }
+  .year1{
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  
+  /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  body {
+	font-family:'Raleway', sans-serif ;
+}
+
+  #main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: auto;
+    gap: 10px;
+    margin: 20px 20px 0;
+}
+#main-grid div {
+    background-color: #a29c9b;
+    border: 2px solid white;
+    width: auto;
+    
+}
+#main-grid {
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    font-size: 1em;
+    padding: 20px;
+}
+
+#spotlight {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#spotlight div {
+    margin: 20px;
+    height: 100%;
+}
+#join {
+    display: none;
+}
+#spot3 {
+    display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 460px) {
+  main .join{
+    display: none;
+  }
+}
+
   
 

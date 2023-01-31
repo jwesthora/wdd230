@@ -8,98 +8,90 @@
         content="Week 4 assingment build a home for the chamber folder, using site plan colors and typography from lesson 3">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <title>Local Portland Home Page</title>
-    <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@700&family=Dosis:wght@300&family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Playfair+Display:ital@1&family=Raleway&family=Rock+Salt&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
     <header>
         <div class="grid-header">
             <div class="logo">
-                <img src="images/logo.jpeg" alt="tree">
+                <img src="images/logo2.jpg" alt="tree">
             </div>
-            <section class="header1">
-                <h1>Portland Oregon</h1>
-                <div class="c">Chamber of Commerce</div>
-            </section>
-            <p>
-                <span id="date1">
-                    <script src="./scripts/app.js"></script>
-                </span>
-            </p>
-
+            <div class="header1">
+                <h1>Portland Oregon | Chamber of Commerce</h1>
+                <div class="date">
+                    <p></p>
+                </div>
+            </div>
             <div class="social">
-                <!-- Add icon library -->
-                <link rel="stylesheet"
-                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-                <!-- Add font awesome icons -->
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-twitter"></a>
             </div>
 
-            <nav class="menu">
-                <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
-                <ul id="primaryNav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Discover</a></li>
-                    <li><a href="#">Directory</a></li>
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Contact</a></li>
-
-                </ul>
-            </nav>
-
         </div>
+        <nav class="navigation">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discovery.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+
     </header>
 
     <main>
-        <div class="main-grid">
-            <div class="hero">Hero with site name and call to action</div>
-            <div class="action">Event</div>
-            <div class="weather">Weather</div>
-            <div class="release">News Release</div>
-            <div class="spot1">Spotlight 1</div>
-            <div class="spot2">Spotlight 2</div>
-            <div class="join">Join</div>
-
+        <div id="main-grid">
+            <div id="hero">Hero with site name and call to action</div>
+            <div id="action">Event</div>
+            <div id="weather">Weather</div>
+            <div id="release">News Release</div>
+            <div id="join">Join</div>
+            <div id="spotlight">
+                <div id="spot1">Spotlight 1</div>
+                <div id="spot2">Spotlight 2</div>
+                <div id="spot3">Spotlight 3</div>
+            </div>
         </div>
-
     </main>
 
     <footer>
         <div class="footer-grid">
             <div class="tree-logo">
-                <img src="images/logo.jpeg" alt="tree">
+                <img src="images/logo2.jpg" alt="tree">
             </div>
             <div class="contact">
-                <p>info@portland.org<br>
-                    (503) 5555-0555
-                </p>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d357682.6187531592!2d-122.9352948533961!3d45.54236973848703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950b0b7da97427%3A0x1c36b9e6f6d18591!2sPortland%2C%20OR!5e0!3m2!1sen!2sus!4v1674691760460!5m2!1sen!2sus"
-                    width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>info@portland.org | (503) 5555-0555</p>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d357682.6187531592!2d-122.9352948533961!3d45.54236973848703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950b0b7da97427%3A0x1c36b9e6f6d18591!2sPortland%2C%20OR!5e0!3m2!1sen!2sus!4v1674691760460!5m2!1sen!2sus"
+                        width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            <div class="author">
+                <p>&copy; 2023 | Portland Oregon Chamber of Commerce | Jill Westhora | WDD 230 Project</p>
             </div>
 
-
-            <p>
-            <div class="year1">
-                &copy;
-                <span id="year">
-                    <script src="scripts/app.js"></script>
-                </span>
-                Portland Oregon Chamber of Commerce | Jill Westhora | WDD 230 Project
-            </div>
         </div>
     </footer>
+    <script src="./scripts/app.js"></script>
 </body>
 
 </html>
