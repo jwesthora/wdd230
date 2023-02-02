@@ -31,25 +31,25 @@
                 <img src="images/logo2.jpg" alt="tree">
             </div>
             <div class="header1">
-                <h1>Portland Oregon | Chamber of Commerce</h1>
-                <div class="date">
-                    <p></p>
-                </div>
+                <h1>Portland Oregon | Chamber of Commerce</h1>  
             </div>
+            <span id="#datec">
+                <script src="./scripts/app.js"></script>
+            </span>
             <div class="social">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
+                <a href="facebook.com" class="fa fa-facebook"></a>
+                <a href="twitter.com" class="fa fa-twitter"></a>
             </div>
 
         </div>
         <nav class="navigation">
             <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
             <ul id="primaryNav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discovery.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
 
@@ -123,8 +123,15 @@
                 </div>
             </div>
             <div class="author">
-                <p>&copy; 2023 | Portland Oregon Chamber of Commerce | Jill Westhora | WDD 230 Project</p>
+                &copy;
+                <span id="year"></span>
+                | Portland Oregon Chamber of Commerce | Jill Westhora | WDD 230 Project
             </div>
+            <div id="result"></div>
+            <script>
+                var date = document.lastModified;
+                document.getElementById("result").innerHTML = "Last modified on : " + date;
+            </script>
 
         </div>
     </footer>
