@@ -184,7 +184,7 @@ main{
 
 main div{
   border-style: solid;
-  padding: 50px 10px;
+  padding: 5px 5px;
 }
 .spot1{
   padding: 50px 20px;
@@ -252,7 +252,7 @@ header{
 .logo, img{
   padding-top: 10px;
 	align-items: center;
-	margin-left: 1rem;
+	/*margin-left: 1rem;*/
 }
 .headings{
   display: flex;
@@ -262,7 +262,7 @@ header{
 header, .header1 {
 	font-size: 1rem;
   align-content: stretch;
-  padding-left: 20px;
+  /*padding-left: 20px;*/
 }
 
 
@@ -324,10 +324,10 @@ header, .header1 {
   #main-grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/
     height: auto;
     gap: 10px;
-    margin: 20px 20px 0;
+    margin: 10px 10px 0;
 }
 #main-grid div {
     background-color: #a29c9b;
@@ -360,6 +360,15 @@ header, .header1 {
     display: none;
 }
 
+/* week #5 - content on page start*/
+.hero1 img{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 200px;
+height: 300px;
+object-fit: contain;
+}
 
 
 
