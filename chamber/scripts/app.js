@@ -1,7 +1,5 @@
 
-//NEW Java script
-
-const daynames = [
+const dayname = [
 	"Sunday",
 	"Monday",
 	"Tuesday",
@@ -25,7 +23,7 @@ const months = [
 	"December"
 ];
 const d = new Date(document.lastModified);
-const dayName = daynames[d.getDay()];
+const dayName = dayname[d.getDay()];
 const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 
