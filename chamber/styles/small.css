@@ -121,6 +121,18 @@ top: 0px;
   padding: .5px;
 }
 /* hamburger try #2 START*/
+#hamburgerBtn span:nth-child(1){display:block}
+#hamburgerBtn span:nth-child(2){display: none;}
+#hamburgerBtn.open span:nth-child(1){display:none}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+
+nav li {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4em;
+  list-style-type: none;  
+}
 nav button {
   margin: .2rem 2vw;
   background: transparent;
@@ -157,10 +169,7 @@ nav ul li a {
   color: white;
   border-top: 1px solid rgba(0,0,0,0.5);
 }
-#hamburgerBtn span:nth-child(1){display:block}
-#hamburgerBtn span:nth-child(2){display: none;}
-#hamburgerBtn.open span:nth-child(1){display:none}
-#hamburgerBtn.open span:nth-child(2){display: block;}
+
 
 nav {
   grid-column: 3/4;
@@ -192,7 +201,32 @@ header, .header1 {
 	font-size: 1.5rem;
  
 }
-
+#banner {
+  display: flex;
+  flex-direction: row;
+  grid-column: 1/4;
+  background-color: #56494e;
+  margin-top: 0px;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+}
+#banner p {
+  margin: 5px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+}
+#banner p:nth-child(1){
+  margin-left: auto;
+}
+#banner #closeBanner {
+  margin-left: auto;
+  justify-self: flex-end;
+  cursor: pointer;
+}
   footer{
     background-color: #511c29;
     color: #a29c9b;
