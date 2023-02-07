@@ -17,9 +17,12 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 datefield.innerHTML = `<em>${fulldate}</em>`;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
+// year
+document.getElementById("year").textContent=now.getFullYear();
 
 
 
+// hamburger button
 function toggleMenu(){
     document.getElementById("primaryNav").classList.toggle("open");
     document.getElementById("hamburgerBtn").classList.toggle("open");
