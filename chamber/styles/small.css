@@ -5,6 +5,17 @@
 header{
   text-align: center;
 }
+.date{
+	display: flex;
+	/*flex-direction: column;*/
+	align-items: center;
+	justify-content: center;
+	font-family: 'Raleway', sans-serif;
+	color: #a29c9b;
+  background-color: #511c29;
+  padding: 1rem;
+  font-size: 1rem;
+}
 
 .grid-header{
   background-color: #511c29;
@@ -22,21 +33,21 @@ header, .header1 {
  
 }
 #banner {
+  font-size: 20px;
+  height: 10vh;
   display: flex;
-  flex-direction: row;
-  grid-column: 1/4;
-  background-color: #56494e;
-  margin-top: 0px;
-  padding: 5px;
+  background-color: #ffffff;
+  
   text-align: center;
   justify-content: center;
 }
 #banner p {
+  padding-top: .5rem;
   margin: 5px;
-  color: white;
+  color: #511c29;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 #banner p:nth-child(1){
