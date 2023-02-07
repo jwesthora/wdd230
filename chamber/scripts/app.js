@@ -14,7 +14,10 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 }).format(now);
 // long, medium, short options ... try them
 
-datefield.innerHTML = `<em>${fulldate}</em>`;
+// - date for long day, month, number day, year (example) Tuesday, February 7, 2023 
+//field.innerHTML = `<em>${fulldate}</em>`;
+
+// date for long day, number day, month, year -(example: Tuesday, 7 February 2023)
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 // year
