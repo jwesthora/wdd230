@@ -1,42 +1,33 @@
 @media only screen and (min-width: 36rem) {
-/* styling for hamburger button START*/
-nav ul {display: none;}
-nav ul.open {display: flex;}
-
-nav button {
-  margin: 2rem 2vw;
-  background: transparent;
-  border: none;
-  font-size: 2rem;
-  color:#a29c9b
-}
-nav {
-  background-color: #a62639;
-}
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-nav ul li a {
-  display: block;
-  padding: .8rem 2vw;
-  text-decoration: none;
-  color: white;
-  border-top: 1px solid rgba(0,0,0,0.5);
-}
-nav ul li a:hover {
-  background-color: rgba(0,0,0,0.3);
-  color: white;
-}
-nav ul li.active a {
-  background-color: rgba(0,0,0,0.2);
-}
-#hamburgerBtn span:nth-child(1){display:block}
-#hamburgerBtn span:nth-child(2){display: none;}
-#hamburgerBtn.open span:nth-child(1){display:none}
-#hamburgerBtn.open span:nth-child(2){display: block;}
-    /*style hamburger button END*/
+  .grid-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo{
+    padding: 3rem;
+  }
+  .social{
+    padding-left: 2rem;
+    padding-right: .5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .header1{
+    padding: 2rem;
+  }
+  .footer-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .map{
+    float: right;
+    padding: 2rem;
+  }
+  .tree-logo{
+    padding: 2rem;
+  }
 
 #main-grid {
   display: grid;

@@ -1,4 +1,17 @@
+// Date
 
+const date = new Date();
+
+const day = date.toLocaleDateString('en', { day: 'numeric' });
+const weekday = date.toLocaleDateString('en', { weekday: 'long' });
+const month = date.toLocaleDateString('en', { month: 'long' });
+const year = date.toLocaleDateString('en', { year: 'numeric' });
+
+document.querySelector('#nav-date').textContent = `${weekday}, ${day} ${month} ${year}`;
+
+document.querySelector('#year').textContent = date.getFullYear();
+
+document.querySelector('#footer-date').textContent = date.toLocaleString('en-GB');
 const dayname = [
 	"Sunday",
 	"Monday",
@@ -22,10 +35,10 @@ const months = [
 	"November",
 	"December"
 ];
-const d = new Date(document.lastModified);
+const d = new Date();
 const dayName = dayname[d.getDay()];
 const monthName = months[d.getMonth()];
-const year = d.getFullYear();
+
 
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.querySelector("#datec").textContent = fulldate;
@@ -41,3 +54,4 @@ function toggleMenu(){
 
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
+
