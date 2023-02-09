@@ -35,3 +35,15 @@ function toggleMenu(){
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
+// banner display on Mondays or Tuesday
+if (now.getDay() === 1 || now.getDay() == 2){
+    document.getElementById("banner").style.display = "flex";
+  } else{
+    document.getElementById("banner").style.display = "none";
+  }
+  
+  const closeButton = document.getElementById("closeBanner");
+  closeButton.addEventListener("click"), () => {
+    document.getElementById("banner").style.display = "none"
+  }
+

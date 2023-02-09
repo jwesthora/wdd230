@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Week 4 assingment build a home for the chamber folder, using site plan colors and typography from lesson 3">
+        content="Week 4 assignnment build a home for the chamber folder, using site plan colors and typography from lesson 3">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="icon" href="favicon.ico">
     <title>Local Portland Home Page</title>
@@ -35,8 +35,8 @@
             </div>
             
             <div class="social">
-                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-                <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+                <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/" class="fa fa-twitter"></a>
             </div>
 
         </div>
@@ -58,7 +58,6 @@
         </div>
         <div id="banner">
             <p>Come Join us for the chamber meet and greet Wednesday at 7:00pm.</p>
-            <p id="closeBanner">x</p>
         </div>
     </header>
 
@@ -66,7 +65,13 @@
         <div id="main-grid">
             <div id="hero">
                 <h1> Welcome to Portland Oregon</h1>
-                <img src="images/smallportland.jpeg" alt="a city">
+                <picture>
+                    <source media="(min-width:800px)" srcset="images/conferencelarge/800/500 1x">
+                    <source media="(min-width:600px)" srcset="images/conferencemedium/600/350 1x">
+                    <img src="images/conferencesmall.jpeg/400/300" alt="conference room"
+                    loading="lazy" width="800" height="500">
+                </picture>
+                <!--<img src="images/smallportland.jpeg" alt="a city">-->
                 <button type="button">Join the Chamber</button>
             </div>
             <div id="action">
