@@ -87,6 +87,17 @@ main{
   background-color: #a29c9b;
   row-gap: 50px;
 }
+main figure.conference{
+width: 50%;
+margin: 0 0 0 2%;
+}
+main figure.conference img{
+  width: 100%;
+}
+main figure.conference figcaption{ 
+  text-align: center;
+font-size: 1px;}
+
 main div{
   border-style: solid;
   padding: 5px 5px;

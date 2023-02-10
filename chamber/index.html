@@ -65,12 +65,19 @@
         <div id="main-grid">
             <div id="hero">
                 <h1> Welcome to Portland Oregon</h1>
-                <picture>
+                <figure class="conference">
+                    <img class="conferenceimg" src="images/originalconference.jpeg" sizes="50vw" 
+                    srcset="images/conferencesmall 279w, 
+                    images/conferencemedium 511w,
+                    images/conferencelarge 1000w" alt="people sitting around table">
+
+                </figure>
+                <!--<picture>
                     <source media="(min-width:800px)" srcset="images/conferencelarge/800/500 1x">
                     <source media="(min-width:600px)" srcset="images/conferencemedium/600/350 1x">
                     <img src="images/conferencesmall.jpeg/400/300" alt="conference room" loading="lazy" width="800"
                         height="500">
-                </picture>
+                </picture>-->
                 <!--<img src="images/smallportland.jpeg" alt="a city">-->
                 <button type="button">Join the Chamber</button>
             </div>
@@ -79,9 +86,9 @@
                 <p>Join us for the grand opening of a new splash pad, July 27th, at 1pm</p>
             </div>
             <div id="weather">
-                <a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/"
+                <a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/?unit=us"
                     data-label_1="PORTLAND" data-label_2="WEATHER" data-mode="Forecast" data-days="3"
-                    data-theme="clear">PORTLAND WEATHER</a>
+                    data-theme="white_leather">PORTLAND WEATHER</a>
                 <script>
                     !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
                 </script>
