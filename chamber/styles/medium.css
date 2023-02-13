@@ -1,4 +1,13 @@
 @media only screen and (min-width: 36rem) {
+  .author{
+    padding: 2rem;
+  }
+  footer, .map{
+    justify-content: center;
+  }
+  .result{
+   justify-content: center;
+  }
   .grid-header {
     display: flex;
     justify-content: center;
@@ -14,12 +23,17 @@
     padding-bottom: 2rem;
   }
   .header1{
-    padding: 2rem;
+    padding: .5 rem;
   }
-  .footer-grid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  footer{
+    background-color: #511c29;
+    color: #a29c9b;
+    text-align: center;
+    display: grid;
+    font-size: 20px;
+  }
+  .footer img{
+    padding: block;
   }
   .map{
     float: right;

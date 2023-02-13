@@ -111,4 +111,9 @@
   #spot3 {
     display: block;
   }
+  .footer-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
