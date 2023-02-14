@@ -1,5 +1,5 @@
 // get all img with data src attribute
-const imagesToLoad = document.querySelectorAll("img[data-src]");
+const imagesToLoad = document.querySelectorAll("image[data-src]");
 
 
 const loadImages = (image) => {

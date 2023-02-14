@@ -43,7 +43,7 @@ if (now.getDay() === 1 || now.getDay() == 2){
   }
   
   const closeButton = document.getElementById("closeBanner");
-  closeButton.addEventListener("click"), () => {
+  //closeButton.addEventListener("click"), () => {
     document.getElementById("banner").style.display = "none"
-  }
+  //}
 
