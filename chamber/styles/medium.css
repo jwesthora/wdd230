@@ -116,6 +116,10 @@ font-size: 1.3rem;
 #spot3 {
   display: none;
   }
+  /* Discovery HTML*/
+  picture img:hover{
+    opacity: .5;
+  }
   
 }
 

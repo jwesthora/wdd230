@@ -433,5 +433,27 @@ object-fit: contain;
 }
 }
 
+/* Discover HTML css*/
+
+picture p{
+  padding: 20px;
+  font-family: 'Dosis', sans-serif;   
+  font-size: 1.3rem;
+  text-align: center;
+  border: 2px solid white;
+  
+}
+picture h1{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.8rem;
+  color: #511c29;
+
+}
+picture img{
+  border: solid #a62639;
+  
+}
+
   
 
