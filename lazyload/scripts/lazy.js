@@ -1,5 +1,10 @@
 // get all img with data src attribute
-const imagesToLoad = document.querySelectorAll("image[data-src]");
+const imagesToLoad = document.querySelectorAll("img[data-src]");
+
+//optional parameters being set for the intersection observer
+const imgoptions= {
+  threshold: 0
+}
 
 
 const loadImages = (image) => {

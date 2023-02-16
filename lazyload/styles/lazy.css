@@ -3,10 +3,17 @@ img{
     padding: 2px;
     filter: blur(0em);
     transition: filter 0.5s;
+    margin: 20px auto;
 }
-img[data-src] {
+main, h1{
+  align-items: center;
+  margin: 20px auto;
+}
+/*img[src] {
     filter: blur(0.2em);
-  }
+  }*/
   img {
     display: block;
+    align-items: center;
+
   }
