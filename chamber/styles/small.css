@@ -454,6 +454,20 @@ picture img{
   border: solid #a62639;
   
 }
+.label {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  color: #511c29;
+  padding: 20px;
+}
+#visits{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  color: #511c29;
+}
+
 
   
 

@@ -3,8 +3,9 @@ const imagesToLoad = document.querySelectorAll("img[data-src]");
 
 //optional parameters being set for the intersection observer
 const imgoptions= {
-  threshold: 0
-}
+  threshold: 0,
+  rootMargin: "0px 0px 50px 0px"
+};
 
 
 const loadImages = (image) => {
