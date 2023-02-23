@@ -19,3 +19,17 @@ h1{
 body{
     background-color: black;
 }
+table{
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+td + td, th + th {
+  border-left: none;
+}
+tr + tr td, tr + tr th {
+  border-top: none;
+}
+th .black-square {
+  background-color: black;
+  border-color: black;
+}
