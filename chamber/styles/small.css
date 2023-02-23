@@ -468,6 +468,121 @@ picture img{
   color: #511c29;
 }
 
+/* JOIN css starts here*/
+form fieldset{
+  margin: 2rem 0;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: .5rem 2%;
+
+}
+form legend{
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  color: #511c29;
+}
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3rem;
+}
+form label.top input {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #a62639;
+  border-radius: 4px;
+  padding: .75rem;
+  color:#56494e;
+  width: 100%;
+  max-width: 20rem;
+}
+textarea{
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #a62639;
+  border-radius: 4px;
+  padding: .75rem;
+  color:#56494e;
+  width: 100%;
+  max-width: 20rem;
+}
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3rem;
+}
+form input.submitBtn{
+  border: none;
+  background-color: #a62639;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+form label.top input:required {
+  border-left: #a62639 solid 6px;
+}
+form label.top input:required:valid{
+  border-left: green solid 6px;
+}
+
+
+#membership {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+#membership div {
+  margin: 20px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;  
+}
+
+#gold h1{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  color: #511c29;
+}
+
+#silver h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  color: #511c29;
+}
+ #bronze h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  color: #511c29;
+}
+#nprofit h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  color: #511c29;
+}
+
+#membership p{
+  text-align: left;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3rem;
+  padding: .5px;
+}
 
   
 

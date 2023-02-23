@@ -2,25 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Week 4 assignment build a home for the chamber folder, using site plan colors and typography from lesson 3">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="icon" type="image/png" href="./images/favicon2.png"/>
-    <title>Local Portland Home Page</title>
+        content="Week 8 assignment build the join page, use form field, get method, and action that directs to confirmation page named (thankyou.html) include first and last name in a text required field. ">
+    <title>Join</title>
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@700&family=Dosis:wght@300&family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Playfair+Display:ital@1&family=Raleway&family=Rock+Salt&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
@@ -60,67 +57,59 @@
             <p>Come Join us for the chamber meet and greet Wednesday at 7:00pm.</p>
         </div>
     </header>
-
     <main>
-        <div id="main-grid">
-            <div id="hero">
-                <h1> Welcome to Portland Oregon</h1>
-                <picture>
-                    <source media="(min-width:800px)" srcset="images/conferencelarge1.jpeg">
-                    <source media="(min-width:600px)" srcset="images/conferencemedium1.jpeg">
-                    <img src="images/conferencesmall1.jpeg" alt="conference room" loading="lazy" width="800"
-                        height="500">
-                </picture>
-                <!--<img src="images/smallportland.jpeg" alt="a city">-->
-                <button type="button">Join the Chamber</button>
-            </div>
-            <div id="action">
-                <h1>Beaverton Park Grand Opening</h1>
-                <p>Join us for the grand opening of a new splash pad, July 27th, at 1pm</p>
-            </div>
-            <div id="weather">
-                <a class="weatherwidget-io" href="https://forecast7.com/en/45d46n122d80/97008/" data-label_1="BEAVERTON"
-                    data-label_2="WEATHER" data-days="3" data-theme="original">BEAVERTON WEATHER</a>
-                <script>
-                    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
-                </script>
-                <p id="ws">wind speed</p>
-                <p id="wc">wind chill</p>
+        <h1>Join Portland Chambers of Commerce</h1>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant information</legend>
+                <label class="top">First Name *<input type="text" name="fname" required></label>
+                <label class="top">Last Name *<input type="text" name="lname" required></label>
+                <label class="top">Cell Phone Number *<input type="tel" name="phone" required></label>
+                <label class="top">Email *<input type="email" name="email" placeholder="johndoe@gmail.com"
+                        required></label>
+                <label class="top">Business Name *<input type="text" name="Bname" required></label>
+                <label class="top">Business Position Title<input type="text" name="Btitle"></label>
+                <label class="top" for="freeform">Descripe your Business to us:</label>
+                <br>
+                <textarea class="top" id="freeform" name="freeform" rows="6" cols="100">Enter text here...</textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <div>Choose Membership Level</div>
+                <label class="sbs"><input type="radio" name="audience" value="nonprofit"> None Profit</label>
+                <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="audience" value="silver"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="audience" value="gold"> Gold Membership</label>
+            </fieldset>
+
+            <input type="submit" value="Join Portland Commerce" class="submitBtn">
+            <input type="hidden" id="date" name="date" value="CurrentTime">
+            <input type="hidden" id="time" name="time" value="CurrentDate">
+
+            <div id="membership">
+                <div id="gold">
+                    <h1>Gold Membership</h1>
+                    <p>$100 per year</p>
+                    <p>4 spotlights per year on homepage, spotlights change weekly. </p>
+                </div>
+                <div id="silver">
+                    <h1>Silver Membership</h1>
+                    <P>$75 per year</P>
+                    <p>3 spotlights per year on homepage, spotlights change weekly.</p>
+                </div>
+                <div id="bronze">
+                    <h1>Bronze Membership</h1>
+                    <p>$50. per year</p>
+                    <p>2 spotlights per year on homepage, spotlights change weekly.</p>
+                </div>
+                <div id="nprofit">
+                    <h1>Non Profit</h1>
+                    <p>$0. per year</p>
+                    <p>1 spotlights per year on homepage, spotlights change weekly.</p>
+                </div>
             </div>
 
-            <div id="release">
-                <h1>News Release</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat officiis explicabo magni debitis
-                    voluptatum vitae nobis perferendis! Minima quibusdam deserunt ullam, error culpa, facilis sequi
-                    facere eligendi suscipit harum ex.</p>
-            </div>
-            <div id="join">
-                <button type="button">Join Us!</button>
-                <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-            </div>
-            <div id="spotlight">
-                <div id="spot1">
-                    <h1>Local Flower Arrangements</h1>
-                    <Img src="images/flowers.jpeg" alt="flowers">
-                    <p>We make it easier to show someone you care!</p>
-                    <p>hellofriend@makesomeonesmile.com | 503-515-5555</p>
-                </div>
-                <div id="spot2">
-                    <h1>Trail Blazers</h1>
-                    <Img src="images/kids.jpeg" alt="kids">
-                    <P>An after school explorer club.</P>
-                    <p>adventure@isoutthere.com | 503-525-5555</p>
-                </div>
-                <div id="spot3">
-                    <h1>Beaverton Craft Fair</h1>
-                    <Img src="images/craftfair.jpeg" alt="craft">
-                    <p>Come be a vender and show off your stuff!</p>
-                    <p>Beavertoncraft@imadethat.com</p>
-                </div>
-            </div>
-        </div>
     </main>
-
     <footer>
         <div class="footer-grid">
             <div class="tree-logo">
@@ -151,7 +140,6 @@
         </div>
     </footer>
     <script src="./scripts/app.js"></script>
-    <script src="./scripts/windchill.js"></script>
 </body>
 
 </html>
