@@ -120,6 +120,10 @@ daysLeftOutput.innerHTML = `${daysleft.toFixed(
 	0
 )} days<br> 🎄Christmas is ${christmas}`;
 
+//date last modified in footer
+
+let text = document.lastModified;
+document.getElementById("mode").innerHTML = text;
 
 
 // hidden date and time for join.html

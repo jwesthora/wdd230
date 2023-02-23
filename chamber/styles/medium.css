@@ -23,7 +23,7 @@
     padding-bottom: 2rem;
   }
   .header1{
-    padding: .5 rem;
+    padding: .5rem;
   }
   footer{
     background-color: #511c29;
@@ -32,9 +32,7 @@
     display: grid;
     font-size: 20px;
   }
-  .footer img{
-    padding: block;
-  }
+  
   .map{
     float: right;
     padding: 2rem;
