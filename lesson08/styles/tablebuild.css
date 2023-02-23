@@ -13,15 +13,19 @@ tr:nth-child(even) {
     background: green;
 }
 h1{
+  background-color: black;
     color: green;
    text-align: center;
 }
-body{
-    background-color: black;
+body {
+  background-color: black;
+  display: inline-table;
+  margin: 40px;
 }
 table{
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 0px;
+  background-color: black;
 }
 td + td, th + th {
   border-left: none;
