@@ -435,7 +435,7 @@ object-fit: contain;
 
 /* Discover HTML css*/
 
-picture p{
+.mtnhood p, .multfalls p, .tulip p, .orrivers p, .beach p{
   padding: 20px;
   font-family: 'Dosis', sans-serif;   
   font-size: 1.3rem;
@@ -443,7 +443,7 @@ picture p{
   border: 2px solid white;
   
 }
-picture h1{
+.mtnhood h1, .multfalls h1, .tulip h1, .orrivers h1, .beach h1{
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 2.8rem;
@@ -469,11 +469,18 @@ picture img{
 }
 
 /* JOIN css starts here*/
+#membership, fieldset{
+  display: inline-block;
+}
 form fieldset{
   margin: 2rem 0;
   border: 2px solid white;
   border-radius: 10px;
   padding: .5rem 2%;
+  flex-direction: column;
+  justify-content: left;
+  float: left;
+  width: 50%;
 
 }
 form legend{
@@ -514,6 +521,7 @@ form label.sbs {
   padding: .75rem 0;
   font-family: 'Dosis', sans-serif;
   font-size: 1.3rem;
+  
 }
 form input.submitBtn{
   border: none;
@@ -539,8 +547,9 @@ form label.top input:required:valid{
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-}
+  float: right;
+  width: 50%;
+  }
 
 #membership div {
   margin: 20px;

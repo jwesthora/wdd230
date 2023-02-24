@@ -8,7 +8,7 @@
     <meta name="description"
         content="Week 7 create demographic data that includes 5 images about the city of Portland Oregon.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="icon" type="image/png" href="./images/favicon2.png" />
+    <link rel="icon" type="image/png" href="./images/favicon2.png">
     <title>Discover Page For Chamber</title>
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -32,8 +32,8 @@
             </div>
 
             <div class="social">
-                <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-                <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                <a href="https://www.facebook.com"><span class="fa fa-facebook" title="facebook"></span></a>
+                <a href="https://twitter.com/"><span class="fa fa-twitter" title="twitter"></span></a>
             </div>
 
         </div>
@@ -58,39 +58,54 @@
         </div>
     </header>
     <main>
-        <picture>
+        <div class="mtnhood">
             <h1>MountHood</h1>
-            <img src="images/placeholder.png" data-src="images/mounthood.jpeg" alt="picture of mount hood"
-                loading="lazy" />
+            <picture>
+                <img src="images/placeholder.png" data-src="images/mounthood.jpeg" alt="picture of mount hood"
+                    loading="lazy" />
+            </picture>
             <p> Oregon has access to Mounthood, for all those who seek adventure in the snow and mountains. </p>
-        </picture>
-        <picture>
+        </div>
+
+        <div class="multfalls">
             <h1>Multanoma Falls</h1>
-            <img src="images/placeholder.png" data-src="images/multanomafalls.jpeg" alt="image of waterfall"
-                loading="lazy" />
+            <picture>
+                <img src="images/placeholder.png" data-src="images/multanomafalls.jpeg" alt="image of waterfall"
+                    loading="lazy" />
+            </picture>
             <p> Multanoma Falls is a great place to go for a scenic hike and enjoy nature, with a stunning 25 foot
                 waterfall.</p>
-        </picture>
-        <picture>
+        </div>
+
+        <div class="tulip">
             <h1>Oregon Tulip Festival with Hot Air Balloon Show</h1>
-            <img src="images/placeholder.png" data-src="images/tulipfestival.jpeg" alt="image of tulip festival"
-                loading="lazy" />
+            <picture>
+                <img src="images/placeholder.png" data-src="images/tulipfestival.jpeg" alt="image of tulip festival"
+                    loading="lazy" />
+            </picture>
             <p> Enjoy the beautiful array of color in Oregon's tulip festival that showcases fields of stunning
                 different carieties of tulips and a hot air balloon show that lights of the sky with bursts of floating
                 color.</p>
-        </picture>
-        <picture>
+        </div>
+
+        <div class="orrivers">
             <h1>Rafting down the Oregon Rivers</h1>
-            <img src="images/placeholder.png" data-src="images/waterrafting.jpeg" alt="image of river rafting"
-                loading="lazy" />
+            <picture>
+                <img src="images/placeholder.png" data-src="images/waterrafting.jpeg" alt="image of river rafting"
+                    loading="lazy" />
+            </picture>
             <p> Need a little more adventure? Come join adventures on the rivers of Oregon. Rafting ranges from
                 beginners to extreme professionals.</p>
-        </picture>
-        <picture>
+        </div>
+
+        <div class="beach">
             <h1>Oregon Beaches</h1>
+            <picture>
             <img src="images/placeholder.png" data-src="images/beach.jpeg" alt="image of beach" loading="lazy" />
+            </picture>
             <p> Oregon Beaches are hard to beat when it comes to open space and beautiful views.</p>
-        </picture>
+        </div>
+        
         <p><span class="label">Number of Visits: </span><span id="visits"></span></p>
         <hr>
         <!--<p>Timestamp is based upon time since “Unix epoch” 1970-01-01T00:00:00Z (UTC),<br>i.e., January 1, 1970.</p>

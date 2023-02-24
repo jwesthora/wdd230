@@ -57,8 +57,10 @@
             <p>Come Join us for the chamber meet and greet Wednesday at 7:00pm.</p>
         </div>
     </header>
-    <main>
+    <main class="join-grid">
+
         <h1>Join Portland Chambers of Commerce</h1>
+
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Applicant information</legend>
@@ -73,6 +75,8 @@
                 <br>
                 <textarea class="top" id="freeform" name="freeform" rows="6" cols="100">Enter text here...</textarea>
             </fieldset>
+
+
             <fieldset>
                 <legend>Membership Level</legend>
                 <div>Choose Membership Level</div>
@@ -82,33 +86,35 @@
                 <label class="sbs"><input type="radio" name="audience" value="gold"> Gold Membership</label>
             </fieldset>
 
-            <input type="submit" value="Join Portland Commerce" class="submitBtn">
-            <input type="hidden" id="date" name="date" value="CurrentTime">
-            <input type="hidden" id="time" name="time" value="CurrentDate">
 
-            <div id="membership">
-                <div id="gold">
-                    <h1>Gold Membership</h1>
-                    <p>$100 per year</p>
-                    <p>4 spotlights per year on homepage, spotlights change weekly. </p>
-                </div>
-                <div id="silver">
-                    <h1>Silver Membership</h1>
-                    <P>$75 per year</P>
-                    <p>3 spotlights per year on homepage, spotlights change weekly.</p>
-                </div>
-                <div id="bronze">
-                    <h1>Bronze Membership</h1>
-                    <p>$50. per year</p>
-                    <p>2 spotlights per year on homepage, spotlights change weekly.</p>
-                </div>
-                <div id="nprofit">
-                    <h1>Non Profit</h1>
-                    <p>$0. per year</p>
-                    <p>1 spotlights per year on homepage, spotlights change weekly.</p>
-                </div>
-            </div>
+            <input type="submit" value="Join Portland Commerce" class="submitBtn">
+            <input type="text" id="date" name="date" value="CurrentTime">
+            <input type="text" id="time" name="time" value="CurrentDate">
         </form>
+
+        <div id="membership">
+            <div id="gold">
+                <h1>Gold Membership</h1>
+                <p>$100 per year</p>
+                <p>4 spotlights per year on homepage, spotlights change weekly. </p>
+            </div>
+            <div id="silver">
+                <h1>Silver Membership</h1>
+                <P>$75 per year</P>
+                <p>3 spotlights per year on homepage, spotlights change weekly.</p>
+            </div>
+            <div id="bronze">
+                <h1>Bronze Membership</h1>
+                <p>$50. per year</p>
+                <p>2 spotlights per year on homepage, spotlights change weekly.</p>
+            </div>
+            <div id="nprofit">
+                <h1>Non Profit</h1>
+                <p>$0. per year</p>
+                <p>1 spotlights per year on homepage, spotlights change weekly.</p>
+            </div>
+        </div>
+
 
     </main>
     <footer>
