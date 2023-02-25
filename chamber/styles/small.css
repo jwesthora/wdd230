@@ -421,19 +421,8 @@ height: 300px;
 object-fit: contain;
 }*/
 
-
-
-
-@media only screen and (max-width: 460px) {
-  #join{
-    display: none;
-  }
-  #spot3 {
-    display: none;
-}
-}
-
 /* Discover HTML css*/
+/*888888888888888888888888888888888888888888888888888888*/
 
 .mtnhood p, .multfalls p, .tulip p, .orrivers p, .beach p{
   padding: 20px;
@@ -468,7 +457,13 @@ picture img{
   color: #511c29;
 }
 
-/* JOIN css starts here*/
+/* JOIN css starts here***************************************************/
+#join-chambers h1{
+padding: 1rem;
+text-align: center;
+font-size: 3rem;
+color: #511c29;
+}
 #membership, fieldset{
   display: inline-block;
 }
@@ -480,7 +475,7 @@ form fieldset{
   flex-direction: column;
   justify-content: left;
   float: left;
-  width: 50%;
+  width: 75%;
 
 }
 form legend{
@@ -548,7 +543,7 @@ form label.top input:required:valid{
   flex-direction: column;
   justify-content: center;
   float: right;
-  width: 50%;
+  width: 75%;
   }
 
 #membership div {
@@ -592,6 +587,20 @@ form label.top input:required:valid{
   font-size: 1.3rem;
   padding: .5px;
 }
+
+
+@media only screen and (max-width: 460px) {
+  #join{
+    display: none;
+  }
+  #spot3 {
+    display: none;
+}
+}
+
+
+
+
 
   
 
