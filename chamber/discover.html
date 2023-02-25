@@ -62,7 +62,7 @@
             <h1>MountHood</h1>
             <picture>
                 <img src="images/placeholder.png" data-src="images/mounthood.jpeg" alt="picture of mount hood"
-                    loading="lazy" />
+                    loading="lazy">
             </picture>
             <p> Oregon has access to Mounthood, for all those who seek adventure in the snow and mountains. </p>
         </div>
@@ -71,7 +71,7 @@
             <h1>Multanoma Falls</h1>
             <picture>
                 <img src="images/placeholder.png" data-src="images/multanomafalls.jpeg" alt="image of waterfall"
-                    loading="lazy" />
+                    loading="lazy">
             </picture>
             <p> Multanoma Falls is a great place to go for a scenic hike and enjoy nature, with a stunning 25 foot
                 waterfall.</p>
@@ -81,18 +81,19 @@
             <h1>Oregon Tulip Festival with Hot Air Balloon Show</h1>
             <picture>
                 <img src="images/placeholder.png" data-src="images/tulipfestival.jpeg" alt="image of tulip festival"
-                    loading="lazy" />
+                    loading="lazy">
             </picture>
             <p> Enjoy the beautiful array of color in Oregon's tulip festival that showcases fields of stunning
-                different carieties of tulips and a hot air balloon show that lights of the sky with bursts of floating
-                color.</p>
+                variations of tulips and a hot air balloons. Enjoy brilliant colors that light up the sky and bursting
+                flowers that are sure to put a spring in your step.
+            </p>
         </div>
 
         <div class="orrivers">
             <h1>Rafting down the Oregon Rivers</h1>
             <picture>
                 <img src="images/placeholder.png" data-src="images/waterrafting.jpeg" alt="image of river rafting"
-                    loading="lazy" />
+                    loading="lazy">
             </picture>
             <p> Need a little more adventure? Come join adventures on the rivers of Oregon. Rafting ranges from
                 beginners to extreme professionals.</p>
@@ -101,48 +102,44 @@
         <div class="beach">
             <h1>Oregon Beaches</h1>
             <picture>
-            <img src="images/placeholder.png" data-src="images/beach.jpeg" alt="image of beach" loading="lazy" />
+                <img src="images/placeholder.png" data-src="images/beach.jpeg" alt="image of beach" loading="lazy">
             </picture>
             <p> Oregon Beaches are hard to beat when it comes to open space and beautiful views.</p>
         </div>
-        
-        <p><span class="label">Number of Visits: </span><span id="visits"></span></p>
+       
+        <p><span class="label">Last visit: </span><span id="LastVisit"></span></p>
         <hr>
-        <!--<p>Timestamp is based upon time since “Unix epoch” 1970-01-01T00:00:00Z (UTC),<br>i.e., January 1, 1970.</p>
-        <p><code>Date.now(): </code> <span id="today"></span> (milliseconds)</p>
-        <hr>
-        <p><span class="label">Days until Christmas:</span> <span id="daysleft">-->
+
     </main>
     <footer>
         <div class="footer-grid">
             <div class="tree-logo">
                 <img src="images/logo2.jpg" alt="tree">
             </div>
-            <div class="contact">
-                <p>info@portland.org | (503) 5555-0555</p>
-            </div>
-            <div class="author">
-                &copy;
-                <span id="year"></span>
-                | Portland Oregon Chamber of Commerce | Jill Westhora | WDD 230 Project
-            </div>
-            <div class="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d357682.6187531592!2d-122.9352948533961!3d45.54236973848703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950b0b7da97427%3A0x1c36b9e6f6d18591!2sPortland%2C%20OR!5e0!3m2!1sen!2sus!4v1674691760460!5m2!1sen!2sus"
-                    width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-            <div id="result">
-                <script>
-                    var date = document.lastModified;
-                    document.getElementById("result").innerHTML = "Last modification: " + date;
-                </script>
-            </div>
 
+        </div>
+        <div class="contact">
+
+            <p>info@portland.org | (503) 5555-0555</p>
+        </div>
+        <div class="author">
+            &copy;
+            <span id="year"></span>
+            | Portland Oregon Chamber of Commerce | Jill Westhora | WDD 230 Project
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d357682.6187531592!2d-122.9352948533961!3d45.54236973848703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950b0b7da97427%3A0x1c36b9e6f6d18591!2sPortland%2C%20OR!5e0!3m2!1sen!2sus!4v1674691760460!5m2!1sen!2sus"
+                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div id="result">
+            <p id="webInfo"></p>Last Modified:
         </div>
     </footer>
     <script src="./scripts/app.js"></script>
+    <script src="./scripts/lastvisit.js"></script>
 
 </body>
 
