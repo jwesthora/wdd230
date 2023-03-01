@@ -26,8 +26,8 @@ prophets.forEach((prophet) => {
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
 
 // Build the p content to show prophet's birth date and birth place
-bDate.textContent = `${prophet.birthdate}`;
-bPlace.textContent = `${prophet.birthplace}`;
+bDate.textContent = `Date of Birth: ${prophet.birthdate}`;
+bPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
 
  // Build the image portrait by setting all the relevant attribute
     portrait.setAttribute('src', prophet.imageurl);
