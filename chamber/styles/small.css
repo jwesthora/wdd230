@@ -588,6 +588,31 @@ form label.top input:required:valid{
   padding: .5px;
 }
 
+/* DIRECTORY HTML css starts here***************************************************/
+
+
+section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  background-color: #eee;
+  border: 1px solid #a62639;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #511c29;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+}
+main img{
+  width: auto;
+  max-width: 325px;
+  box-shadow: 0 0 30px #777;
+  height: 200px;
+  border: 1px solid #a62639;
+}
+
 
 @media only screen and (max-width: 460px) {
   #join{

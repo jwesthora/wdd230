@@ -7,7 +7,7 @@
         "bEmail": "oregonzoo.gmail.com",
         "length": 14,
         "order": 1,
-        "imageurl": "https://www.istockphoto.com/photo/the-entrance-of-oregon-zoo-in-washington-park-station-at-winter-season-gm900130676-248363118?phrase=oregon%20zoo"
+        "imageurl": "images/oregonzoo.jpeg"
       },
       {
         "bName": "Red Berry Barn",
@@ -16,7 +16,7 @@
         "bEmail": "redberrybarn.gmail.com",
         "length": 14,
         "order": 1,
-        "imageurl": "https://www.istockphoto.com/photo/the-entrance-of-oregon-zoo-in-washington-park-station-at-winter-season-gm900130676-248363118?phrase=oregon%20zoo"
+        "imageurl": "chamber/images/berrybarn.jpeg"
       },
       {
         "bName": "Phils Pumpkin Patch",
@@ -25,7 +25,7 @@
         "bEmail": "pumpkinlove.gmail.com",
         "length": 14,
         "order": 1,
-        "imageurl": "https://www.istockphoto.com/photo/the-entrance-of-oregon-zoo-in-washington-park-station-at-winter-season-gm900130676-248363118?phrase=oregon%20zoo"
+        "imageurl": "chamber/images/pumpkinpatch.jpeg"
       },
       {
         "bName": "Beaverton Farmers Market",
@@ -34,7 +34,7 @@
         "bEmail": "keepitweirdfarmersmarket.gmail.com",
         "length": 14,
         "order": 1,
-        "imageurl": "https://www.istockphoto.com/photo/the-entrance-of-oregon-zoo-in-washington-park-station-at-winter-season-gm900130676-248363118?phrase=oregon%20zoo"
+        "imageurl": "chamber/images/beavertonfarmers.jpeg"
       },
       {
         "bName": "Crumbl Cookies",
@@ -43,7 +43,7 @@
         "bEmail": "crumblcookie.com",
         "length": 14,
         "order": 1,
-        "imageurl": "https://www.istockphoto.com/photo/the-entrance-of-oregon-zoo-in-washington-park-station-at-winter-season-gm900130676-248363118?phrase=oregon%20zoo"
+        "imageurl": "chamber/images/crumblcookie.jpeg"
       },
       {
         "bName": "Natures Pet Market Murrayhill",
@@ -52,7 +52,7 @@
         "bEmail": "radpetmarket.com",
         "length": 14,
         "order": 1,
-        "imageurl": "https://www.istockphoto.com/photo/the-entrance-of-oregon-zoo-in-washington-park-station-at-winter-season-gm900130676-248363118?phrase=oregon%20zoo"
+        "imageurl": "chamber/images/doggroomer.jpeg"
       },
       {
         "bName": "Voodoo Doughnuts - Old Town",
@@ -61,7 +61,7 @@
         "bEmail": "loveofdoughnuts.com",
         "length": 14,
         "order": 1,
-        "imageurl": "https://www.istockphoto.com/photo/the-entrance-of-oregon-zoo-in-washington-park-station-at-winter-season-gm900130676-248363118?phrase=oregon%20zoo"
+        "imageurl": "chamber/images/voodoodoughnut.jpeg"
       },
       {
         "bName": "Portland Japanese Garden",
@@ -70,7 +70,7 @@
         "bEmail": "japanesegarden.com",
         "length": 14,
         "order": 1,
-        "imageurl": "https://www.istockphoto.com/photo/the-entrance-of-oregon-zoo-in-washington-park-station-at-winter-season-gm900130676-248363118?phrase=oregon%20zoo"
+        "imageurl": "chamber/images/japanesegarden.jpeg"
       },
       {
         "bName": "Omsi",
@@ -79,7 +79,7 @@
         "bEmail": "omsi.com",
         "length": 14,
         "order": 1,
-        "imageurl": "https://www.istockphoto.com/photo/the-entrance-of-oregon-zoo-in-washington-park-station-at-winter-season-gm900130676-248363118?phrase=oregon%20zoo"
+        "image": "chamber/images/omsi.jpeg"
       }
     ]
 }
