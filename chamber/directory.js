@@ -17,12 +17,12 @@ function showList() {
 	display.classList.remove("grid");
 }
 
-const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
-//const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
+const url = 'https://jwesthora.github.io/wdd230/chamber/data.json';
+
 
 async function getCompaniesData() {
     const response = await fetch(url);
-    const data = await response.json();
+    const data = await data.json();
     //console.table(data.prophets); // reference the prophet array of data object
     displayCompanies(data.companies);
 }
@@ -37,18 +37,18 @@ companies.forEach((companies) => {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
-    let bphone = document.createElement('p');
-    let bemail = document.createElement('p');
-    let baddress = document.createElement('p');
+    let bPhone = document.createElement('p');
+    let bEmail = document.createElement('p');
+    let bAddress = document.createElement('p');
     
   
 // Build the h2 content out to show the prophet's full name - finish the template string
     h2.textContent = `${companies.bName}`;
 
 // Build the p content to show prophet's birth date and birth place
-bphone.textContent = `Phone: ${companies.bPhone}`;
-bemail.textContent = `Contact: ${companies.bEmail}`;
-baddress.textContent = `Address: ${companies.bAddress}`;
+bPhone.textContent = `Phone: ${companies.bPhone}`;
+bEmail.textContent = `Contact: ${companies.bEmail}`;
+bAddress.textContent = `Address: ${companies.bAddress}`;
 
  // Build the image portrait by setting all the relevant attribute
     portrait.setAttribute('src', companies.imageurl);
