@@ -16,7 +16,7 @@
         "bEmail": "redberrybarn.gmail.com",
         "length": 14,
         "order": 1,
-        "imageurl": "chamber/images/berrybarn.jpeg"
+        "imageurl": "images/berrybarn.jpeg"
       },
       {
         "bName": "Phils Pumpkin Patch",
@@ -25,7 +25,7 @@
         "bEmail": "pumpkinlove.gmail.com",
         "length": 14,
         "order": 1,
-        "imageurl": "chamber/images/pumpkinpatch.jpeg"
+        "imageurl": "images/pumpkinpatch.jpeg"
       },
       {
         "bName": "Beaverton Farmers Market",
@@ -34,7 +34,7 @@
         "bEmail": "keepitweirdfarmersmarket.gmail.com",
         "length": 14,
         "order": 1,
-        "imageurl": "chamber/images/beavertonfarmers.jpeg"
+        "imageurl": "images/beavertonfarmers.jpeg"
       },
       {
         "bName": "Crumbl Cookies",
@@ -43,25 +43,25 @@
         "bEmail": "crumblcookie.com",
         "length": 14,
         "order": 1,
-        "imageurl": "chamber/images/crumblcookie.jpeg"
+        "imageurl": "images/crumblcookie.jpeg"
       },
       {
-        "bName": "Natures Pet Market Murrayhill",
+        "bName": "Natures Pet Market",
         "bAddress": "14611 SW Teal Blvd, Portland, OR 97221",
         "bPhone": "(503) 333-1561",
         "bEmail": "radpetmarket.com",
         "length": 14,
         "order": 1,
-        "imageurl": "chamber/images/doggroomer.jpeg"
+        "imageurl": "images/doggroomer.jpeg"
       },
       {
-        "bName": "Voodoo Doughnuts - Old Town",
+        "bName": "Voodoo Doughnuts",
         "bAddress": "52556 SW liberty Rd, Portland, OR 97221",
         "bPhone": "(503) 241-4704",
         "bEmail": "loveofdoughnuts.com",
         "length": 14,
         "order": 1,
-        "imageurl": "chamber/images/voodoodoughnut.jpeg"
+        "imageurl": "images/voodoodoughnut.jpeg"
       },
       {
         "bName": "Portland Japanese Garden",
@@ -70,7 +70,7 @@
         "bEmail": "japanesegarden.com",
         "length": 14,
         "order": 1,
-        "imageurl": "chamber/images/japanesegarden.jpeg"
+        "imageurl": "images/japanesegarden.jpeg"
       },
       {
         "bName": "Omsi",
@@ -79,7 +79,7 @@
         "bEmail": "omsi.com",
         "length": 14,
         "order": 1,
-        "image": "chamber/images/omsi.jpeg"
+        "imageurl": "images/omsi.jpeg"
       }
     ]
 }
