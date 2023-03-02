@@ -160,7 +160,7 @@ picture{
 }
 #hero h1{
  position: absolute;
-top: 0px;
+ top: 0px;
  left: 20px;
  font-size: 2.3rem;
  font-weight: bolder;
@@ -590,6 +590,18 @@ form label.top input:required:valid{
 
 /* DIRECTORY HTML css starts here***************************************************/
 
+#menu, button, .list{
+  color: #ffffff;
+  background-color:#a62639;
+  align-items: center;
+}
+.cards p{
+  text-align: center;
+  justify-content: center;
+  max-width: fit-content;
+  padding: .5px;
+  margin: .5rem;
+}
 .cards section {
   margin: 0.25rem;
   padding: 0.35rem;
