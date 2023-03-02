@@ -21,15 +21,17 @@ companies.forEach((company) => {
     let bPhone = document.createElement('p');
     let bEmail = document.createElement('p');
     let bAddress = document.createElement('p');
+    let memberShip = document.createElement(`p`);
     
   
 // Build the h2 content out to show the prophet's full name - finish the template string
     h2.textContent = `${company.bName}`;
 
-// Build the p content to show prophet's birth date and birth place
+// Build the p content to show phone, address, URL(email)
 bPhone.textContent = `Phone: ${company.bPhone}`;
-bEmail.textContent = `Contact: ${company.bEmail}`;
+bEmail.textContent = `${company.bEmail}`;
 bAddress.textContent = `Address: ${company.bAddress}`;
+memberShip.textContent =`Membership Status: ${company.memberShip}`;
 
  // Build the image portrait by setting all the relevant attribute
     portrait.setAttribute('src', company.imageurl);
@@ -44,6 +46,7 @@ bAddress.textContent = `Address: ${company.bAddress}`;
  card.appendChild(bPhone);
  card.appendChild(bAddress);
  card.appendChild(bEmail);
+ card.appendChild(memberShip);
  
  
   

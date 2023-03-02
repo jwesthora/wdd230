@@ -4,82 +4,91 @@
         "bName": "Oregon Zoo",
         "bAddress": "4001 SW Canyon Rd, Portland, OR 97221",
         "bPhone": "(503) 226-1561",
-        "bEmail": "oregonzoo.gmail.com",
+        "bEmail": "https://www.oregonzoo.org/about/about-oregon-zoo-foundation/contact-us",
         "length": 14,
         "order": 1,
-        "imageurl": "images/oregonzoo.jpeg"
+        "imageurl": "images/oregonzoo.jpeg",
+        "memberShip":""
       },
       {
         "bName": "Red Berry Barn",
         "bAddress": "2121 SW Panera Ln, Sherwood, OR 97221",
         "bPhone": "(503) 925-1700",
-        "bEmail": "redberrybarn.gmail.com",
+        "bEmail": "https://redberrybarn.com/",
         "length": 14,
         "order": 1,
-        "imageurl": "images/berrybarn.jpeg"
+        "imageurl": "images/berrybarn.jpeg",
+        "memberShip":""
       },
       {
         "bName": "Phils Pumpkin Patch",
         "bAddress": "4325 SW Arlien Rd, Hillsboro, OR 97001",
         "bPhone": "(503) 807-6721",
-        "bEmail": "pumpkinlove.gmail.com",
+        "bEmail": "https://philsfarmmarket.com/",
         "length": 14,
         "order": 1,
-        "imageurl": "images/pumpkinpatch.jpeg"
+        "imageurl": "images/pumpkinpatch.jpeg",
+        "memberShip":""
       },
       {
         "bName": "Beaverton Farmers Market",
         "bAddress": "16865 SW 5th Ave, Beaverton , OR 97008",
         "bPhone": "(503) 643-5345",
-        "bEmail": "keepitweirdfarmersmarket.gmail.com",
+        "bEmail": "https://www.beavertonfarmersmarket.com/",
         "length": 14,
         "order": 1,
-        "imageurl": "images/beavertonfarmers.jpeg"
+        "imageurl": "images/beavertonfarmers.jpeg",
+        "memberShip":""
       },
       {
         "bName": "Crumbl Cookies",
         "bAddress": "14900 SW Barrows Rd, Portland, OR 97221",
         "bPhone": " (971) 317-9412",
-        "bEmail": "crumblcookie.com",
+        "bEmail": "https://crumblcookies.com/",
         "length": 14,
         "order": 1,
-        "imageurl": "images/crumblcookie.jpeg"
+        "imageurl": "images/crumblcookie.jpeg",
+        "memberShip":""
       },
       {
         "bName": "Natures Pet Market",
         "bAddress": "14611 SW Teal Blvd, Portland, OR 97221",
         "bPhone": "(503) 333-1561",
-        "bEmail": "radpetmarket.com",
+        "bEmail": "https://murrayhill.naturespetmarket.com/products/shop/",
         "length": 14,
         "order": 1,
-        "imageurl": "images/doggroomer.jpeg"
+        "imageurl": "images/doggroomer.jpeg",
+        "memberShip":""
       },
       {
         "bName": "Voodoo Doughnuts",
         "bAddress": "52556 SW liberty Rd, Portland, OR 97221",
         "bPhone": "(503) 241-4704",
-        "bEmail": "loveofdoughnuts.com",
+        "bEmail": "https://www.voodoodoughnut.com/doughnuts/",
         "length": 14,
         "order": 1,
-        "imageurl": "images/voodoodoughnut.jpeg"
+        "imageurl": "images/voodoodoughnut.jpeg",
+        "memberShip":""
       },
       {
         "bName": "Portland Japanese Garden",
         "bAddress": "7988 NW Waterfron Rd, Portland, OR 97219",
         "bPhone": "(503) 329-2544",
-        "bEmail": "japanesegarden.com",
+        "bEmail": "https://japanesegarden.org/japan-institute/thecenter/?gclid=CjwKCAiAr4GgBhBFEiwAgwORrTxp5fHU6JtA8Th2_nvgmZGePTL-dYQ6IgsOfYS5n2J1lqdZtYQMhxoCo1sQAvD_BwE",
         "length": 14,
         "order": 1,
-        "imageurl": "images/japanesegarden.jpeg"
+        "imageurl": "images/japanesegarden.jpeg",
+        "memberShip":""
       },
       {
         "bName": "Omsi",
         "bAddress": "7890 SW Cannon Rd, Portland, OR 97220",
         "bPhone": "(503) 555-1561",
-        "bEmail": "omsi.com",
+        "bEmail": "https://omsi.edu/",
         "length": 14,
         "order": 1,
-        "imageurl": "images/omsi.jpeg"
+        "imageurl": "images/omsi.jpeg",
+        "memberShip":""
       }
     ]
 }
