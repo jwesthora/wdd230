@@ -608,7 +608,7 @@ section {
 main img{
   width: auto;
   max-width: 325px;
-  box-shadow: 0 0 30px #777;
+  box-shadow: 0 0 40px #777;
   height: 200px;
   border: 1px solid #a62639;
 }
