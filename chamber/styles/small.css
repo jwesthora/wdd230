@@ -590,7 +590,6 @@ form label.top input:required:valid{
 
 /* DIRECTORY HTML css starts here***************************************************/
 
-
 .cards section {
   margin: 0.25rem;
   padding: 0.35rem;
@@ -608,7 +607,7 @@ form label.top input:required:valid{
 .cards img{
   width: auto;
   max-width: 325px;
-  box-shadow: 0 0 40px #777;
+  box-shadow: 0 0 50px #777;
   height: 200px;
   border: 1px solid #a62639;
 }
