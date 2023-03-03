@@ -155,7 +155,14 @@ font-size: 1.3rem;
   background-color:#a62639;
   
 }
-  
+.cards p{
+  text-align: center;
+  justify-content: center;
+  max-width: auto;
+  padding:  0 10px;
+  word-break: break-all;
+  margin: 1rem;
+}
 }
 
 
