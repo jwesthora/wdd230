@@ -623,7 +623,7 @@ form label.top input:required:valid{
 .cards p{
   text-align: center;
   justify-content: center;
-  max-width: auto;
+  /*max-width: auto;*/
   padding:  0 40px;
   word-break: break-all;
   margin: 1rem;
