@@ -11,7 +11,8 @@ async function apiFetch() {
     if (response.ok) {
       const data = await response.json();
       console.log(data); // this is for testing the call
-      // displayResults(data);
+      displayResults(data);
+      
     } else {
       throw Error(await response.text());
     }
@@ -27,8 +28,8 @@ function displayResults(weatherdata) {
   const iconsrc = `https://openweathermap.org/img/w/${weatherdata.weather[0].icon}.png`;
   const desc = weatherdata.weather[0].description;
 
-  wIcon.setAttribute('src', iconsrc);
-  wIcon.setAttribute('alt', desc);
+  weatherIcon.setAttribute('src', iconsrc);
+  weatherIcon.setAttribute('alt', desc);
   captionDesc.textContent = desc;
 
 
