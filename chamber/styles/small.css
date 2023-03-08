@@ -87,16 +87,6 @@ main{
   background-color: #a29c9b;
   row-gap: 50px;
 }
-/*main figure.conference{
-width: 50%;
-margin: 0 0 0 2%;
-}
-main figure.conference img{
-  width: 100%;
-}
-main figure.conference figcaption{ 
-  text-align: center;
-font-size: 1px;}*/
 
 main div{
   border-style: solid;
@@ -104,8 +94,10 @@ main div{
 }
 .spot1{
   padding: 50px 20px;
-  border-collapse: collapse ; 
+  border-collapse: collapse; 
+  
 }
+
 header{
   text-align: center;
 }
@@ -114,11 +106,7 @@ header{
   color: #a29c9b;
   display: grid;
 }
-/*.logo, img{
-  padding-top: 10px;
-	align-items: center;
-	/*margin-left: 1rem;
-}*/
+
 .headings{
   display: flex;
 	flex-direction: column;
@@ -223,6 +211,11 @@ picture{
   font-family: 'Dosis', sans-serif;   
   font-size: 1.3rem;
   text-align: left;
+}
+#release img{
+  height: auto;
+  align-self: center;
+  padding-top: 2rem;
 }
 
 #spotlight {
@@ -410,16 +403,6 @@ nav {
 #join{
   display: none;
 }
-
-/* week #5 - content on page start*/
-/*.hero1 img{
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-width: 200px;
-height: 300px;
-object-fit: contain;
-}*/
 
 /* Discover HTML css*/
 /*888888888888888888888888888888888888888888888888888888*/
