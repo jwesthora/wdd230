@@ -82,37 +82,42 @@ if ("IntersectionObserver" in window) {
       loadImages(img);
     });
   }
+  //date last modified in footer
+
+let text = document.lastModified;
+document.getElementById("mode").innerHTML = text;
+
   // java for time stamp of number of times visited on Discovery page
   // initialize display elements
-const todayDisplay = document.querySelector("#today");
-const visitsDisplay = document.querySelector("#visits");
-const daysLeftOutput = document.querySelector("#daysleft");
+//const todayDisplay = document.querySelector("#today");
+//const visitsDisplay = document.querySelector("#visits");
+//const daysLeftOutput = document.querySelector("#daysleft");
 
 // get the stored value in localStorage
-let numVisits = Number(window.localStorage.getItem("visits-ls")); // Using the Number() function ensures that if the storage item does not exist, it will be converted into a zero (0) which helps on the if block condition.
+//let numVisits = Number(window.localStorage.getItem("visits-ls")); // Using the Number() function ensures that if the storage item does not exist, it will be converted into a zero (0) which helps on the if block condition.
 
 // determine if this is the first visit or display the number of visits.
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
-} else {
-	visitsDisplay.textContent = `This is your first visit!`;
-}
+//if (numVisits !== 0) {
+	//visitsDisplay.textContent = numVisits;
+//} else {
+	//visitsDisplay.textContent = `This is your first visit!`;
+//}
 
 // increment the number of visits.
-numVisits++;
+//numVisits++;
 // store the new number of visits value
-localStorage.setItem("visits-ls", numVisits);
+//localStorage.setItem("visits-ls", numVisits);
 // show todays date demonstration
-todayDisplay.textContent = Date.now();
+//todayDisplay.textContent = Date.now();
 //84600000 equals the number of miliseconds in one day.
 
 // Days until Christmas
-let today = new Date();
-let christmas = new Date(today.getFullYear(), 11, 25);
-// check if is the waing days of December, if so ... change to next year.
-if (today.getMonth() == 11 && today.getDate() > 25) {
-	christmas.setFullYear(christmas.getFullYear() + 1);
-}
+// let today = new Date();
+// let christmas = new Date(today.getFullYear(), 11, 25);
+// // check if is the waing days of December, if so ... change to next year.
+// if (today.getMonth() == 11 && today.getDate() > 25) {
+// 	christmas.setFullYear(christmas.getFullYear() + 1);
+// }
 
 let daysleft = (christmas.getTime() - Date.now()) / 84600000;
 
@@ -120,10 +125,7 @@ daysLeftOutput.innerHTML = `${daysleft.toFixed(
 	0
 )} days<br> 🎄Christmas is ${christmas}`;
 
-//date last modified in footer
 
-let text = document.lastModified;
-document.getElementById("mode").innerHTML = text;
 
 
 // hidden date and time for join.html
@@ -144,34 +146,34 @@ var date = document.lastModified;
 document.getElementById("result").innerHTML = "Last modification: " + date;
 
 
-// discover page last visit between days*********************************
+// // discover page last visit between days*********************************
 
 
-// Get the current date
-const nowDate = new Date();
+// // Get the current date
+// const nowDate = new Date();
 
-// Get the date of the last visit from local storage
-const lastVisit = localStorage.getItem('lastVisit');
+// // Get the date of the last visit from local storage
+// const lastVisit = localStorage.getItem('lastVisit');
 
-if (lastVisit) {
-  // Calculate the difference in time between the last visit and the current visit
-  const diffTime = nowDate.getTime() - new Date(lastVisit).getTime();
+// if (lastVisit) {
+//   // Calculate the difference in time between the last visit and the current visit
+//   const diffTime = nowDate.getTime() - new Date(lastVisit).getTime();
 
-  // Convert the time difference to days and round to the nearest whole number
-  const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
+//   // Convert the time difference to days and round to the nearest whole number
+//   const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
 
-  // Display the number of days since the last visit
-  if (diffDays < 1){
-  document.getElementById("LastVisit").innerText = `Last visit: Today`;
+//   // Display the number of days since the last visit
+//   if (diffDays < 1){
+//   document.getElementById("LastVisit").innerText = `Last visit: Today`;
 
-  } else{
-    document.getElementById("LastVisit").innerText = `Last visit: ${diffDays} days ago`;
+//   } else{
+//     document.getElementById("LastVisit").innerText = `Last visit: ${diffDays} days ago`;
     
-  }
-} else{
-    document.getElementById("LastVisit").innerText = "This is your first visit"
-}
+//   }
+// } else{
+//     document.getElementById("LastVisit").innerText = "This is your first visit"
+// }
 
-// Store the current visit date in local storage
-localStorage.setItem('lastVisit', nowDate);
+// // Store the current visit date in local storage
+// localStorage.setItem('lastVisit', nowDate);
 
