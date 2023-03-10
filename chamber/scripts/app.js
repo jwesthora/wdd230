@@ -119,11 +119,11 @@ document.getElementById("mode").innerHTML = text;
 // 	christmas.setFullYear(christmas.getFullYear() + 1);
 // }
 
-let daysleft = (christmas.getTime() - Date.now()) / 84600000;
+// let daysleft = (christmas.getTime() - Date.now()) / 84600000;
 
-daysLeftOutput.innerHTML = `${daysleft.toFixed(
-	0
-)} days<br> 🎄Christmas is ${christmas}`;
+// daysLeftOutput.innerHTML = `${daysleft.toFixed(
+// 	0
+// )} days<br> 🎄Christmas is ${christmas}`;
 
 
 
