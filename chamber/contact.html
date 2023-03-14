@@ -67,13 +67,22 @@
 
         <form method="get" action="thankyou.html">
             <fieldset>
-                <legend>Contact Us!</legend>
+                <legend>Get in touch </legend>
                 <label class="top">Name *<input type="text" name="fname" required></label>
                 <label class="top">Email *<input type="email" name="email" placeholder="johndoe@gmail.com"
                         required></label>
                 <label class="top" for="freeform">Questions or Comments:</label>
                 <br>
                 <textarea class="top" id="freeform" name="freeform" rows="6" cols="100">Enter text here...</textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Are you a Portland Chamber Member?</legend>
+                <div>Choose Membership Level</div>
+                <label class="sbs"><input type="radio" name="audience" value="nonprofit"> None Profit</label>
+                <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="audience" value="silver"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="audience" value="gold"> Gold Membership</label>
+                <label class="sbs"><input type="radio" name="audience" value="gold">No, I am not a Portland Chamber Member</label>
             </fieldset>
             <input type="submit" value="Submit" class="submitBtn">
         </form>
