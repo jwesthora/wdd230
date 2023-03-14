@@ -2,50 +2,56 @@
   display: grid;
 
 }*/
-header{
+header {
   text-align: center;
 }
-.date{
-	display: flex;
-	/*flex-direction: column;*/
-	align-items: center;
-	justify-content: center;
-	font-family: 'Raleway', sans-serif;
-	color: #a29c9b;
+
+.date {
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: center;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  color: #a29c9b;
   background-color: #511c29;
   padding: 1rem;
   font-size: 1rem;
 }
-.social img{
+
+.social img {
   padding: 1rem;
   background-color: #eee;
   border-radius: 12px;
 }
 
-.grid-header{
+.grid-header {
   background-color: #511c29;
   color: #a29c9b;
   display: grid;
 }
 
-.headings{
+.headings {
   display: flex;
-	flex-direction: column;
-	
+  flex-direction: column;
+
 }
-header, .header1 {
-	font-size: 1.5rem;
- 
+
+header,
+.header1 {
+  font-size: 1.5rem;
+
 }
+
 #banner {
   font-size: 20px;
   height: 10vh;
   display: flex;
   background-color: #ffffff;
-  
+
   text-align: center;
   justify-content: center;
 }
+
 #banner p {
   padding-top: .5rem;
   margin: 5px;
@@ -55,84 +61,95 @@ header, .header1 {
   font-size: 1.5rem;
   font-weight: bold;
 }
-#banner p:nth-child(1){
+
+#banner p:nth-child(1) {
   margin-left: auto;
 }
+
 #banner #closeBanner {
   margin-left: auto;
   justify-self: flex-end;
   cursor: pointer;
 }
-  footer{
-    background-color: #511c29;
-    color: #a29c9b;
-    text-align: center;
-    display: grid;
-    font-size: 20px;
-  }
-  
-  .logo img, footer img{
-    background-color: #eee;
-    border-radius: 12px;
-  }
-  .map{
-    border: #a29c9b;
-    padding: 1rem;
-  }
-  #result{
-    padding-bottom: 1rem;
-  }
-  
-  body {
-	font-family:'Raleway', sans-serif ;
+
+footer {
+  background-color: #511c29;
+  color: #a29c9b;
+  text-align: center;
+  display: grid;
+  font-size: 20px;
+}
+
+.logo img,
+footer img {
+  background-color: #eee;
+  border-radius: 12px;
+}
+
+.map {
+  border: #a29c9b;
+  padding: 1rem;
+}
+
+#result {
+  padding-bottom: 1rem;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
 }
 
 /* main section boxing START*/
-main{
+main {
   display: grid;
   flex-direction: column;
   background-color: #a29c9b;
   row-gap: 50px;
 }
 
-main div{
+main div {
   border-style: solid;
   padding: 5px 5px;
 }
-.spot1{
+
+.spot1 {
   padding: 50px 20px;
-  border-collapse: collapse; 
-  
+  border-collapse: collapse;
+
 }
 
-header{
+header {
   text-align: center;
 }
-.grid-header{
+
+.grid-header {
   background-color: #511c29;
   color: #a29c9b;
   display: grid;
 }
 
-.headings{
+.headings {
   display: flex;
-	flex-direction: column;
-	margin-left: .5rem;
+  flex-direction: column;
+  margin-left: .5rem;
 }
-header, .header1 {
-	font-size: 1rem;
+
+header,
+.header1 {
+  font-size: 1rem;
   align-content: stretch;
 }
 
 .responsive li {
-	display: block;
+  display: block;
 }
 
 .responsive #menu::before {
-	content: "X";
+  content: "X";
 }
+
 /* navigation try it out and see if it works END*/
-picture{
+picture {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -146,92 +163,106 @@ picture{
   background-size: 100% 100%;
   height: 100%;
 }
-#hero img{
- grid-column: 1/4;
- grid-row: 1/2;
- width: 100%;
- height: auto;
- /*height: 100%;*/
+
+#hero img {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  width: 100%;
+  height: auto;
+  /*height: 100%;*/
 }
-#hero h1{
- position: absolute;
- top: 0px;
- left: 20px;
- font-size: 2.3rem;
- font-weight: bolder;
- font-family: 'Raleway', sans-serif;
- color: black;
+
+#hero h1 {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  font-size: 2.3rem;
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+  color: black;
 
 }
-#hero button{
- background-color: #a62639;
- color: white;
- font-size: 1.1rem;
- font-family: 'Raleway', sans-serif;
- padding: 12px 28px;
- border-radius: 12px;
- position: absolute;
- bottom: 25px;
- right: 20px;
- transition-duration: 0.3s;
- cursor: pointer;
+
+#hero button {
+  background-color: #a62639;
+  color: white;
+  font-size: 1.1rem;
+  font-family: 'Raleway', sans-serif;
+  padding: 12px 28px;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+  transition-duration: 0.3s;
+  cursor: pointer;
 }
-#hero button:hover{
+
+#hero button:hover {
   background-color: #a29c9b;
-  color:#a62639;
+  color: #a62639;
   font-weight: bold;
 }
+
 #action h1 {
   font-family: 'Raleway', sans-serif;
   color: #511c29;
   font-size: 1.8rem;
   text-align: center;
 }
+
 #action p {
   font-family: 'Dosis', sans-serif;
   font-size: 1.3rem;
   text-align: left;
 }
-#action span{
+
+#action span {
   color: #511c29;
 }
-#weather img, icon{
+
+#weather img,
+icon {
   width: 100%;
   height: 100%;
   align-self: center;
   padding-top: 1rem;
   text-align: center;
 }
-#weather figcaption{
+
+#weather figcaption {
   text-align: center;
   color: #eee;
   font-size: 1.5rem;
 
 }
-#weather p{
+
+#weather p {
   font-family: 'Raleway', sans-serif;
   background-color: #a29c9b;
   font-size: 1.5rem;
   align-items: center;
   text-align: center;
 }
-#weather h1{
+
+#weather h1 {
   color: #511c29;
   text-align: center;
 }
 
-#release h1{
-  font-family: 'Raleway', sans-serif;   
+#release h1 {
+  font-family: 'Raleway', sans-serif;
   font-size: 1.8rem;
-  color: #511c29; 
+  color: #511c29;
   text-align: center;
 }
-#release p{
-  font-family: 'Dosis', sans-serif;   
+
+#release p {
+  font-family: 'Dosis', sans-serif;
   font-size: 1.3rem;
   text-align: left;
 }
-#release img{
+
+#release img {
   height: auto;
   align-self: center;
   padding-top: 2rem;
@@ -250,16 +281,17 @@ picture{
   height: 100%;
   background-color: white;
   display: flex;
-  flex-direction: column; 
-  border-radius: 12px; 
+  flex-direction: column;
+  border-radius: 12px;
 }
-#spotlight img{
+
+#spotlight img {
   width: 100%;
   height: auto;
   align-self: center;
 }
 
-#spot1 h1{
+#spot1 h1 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 1.8rem;
@@ -277,33 +309,47 @@ picture{
   display: none;
 }
 
-#spotlight p{
+#spotlight p {
   text-align: left;
   margin: 0;
   font-family: 'Dosis', sans-serif;
   font-size: 1.3rem;
   padding: .5px;
 }
+
 /* hamburger try #2 START*/
-#hamburgerBtn span:nth-child(1){display:block}
-#hamburgerBtn span:nth-child(2){display: none;}
-#hamburgerBtn.open span:nth-child(1){display:none}
-#hamburgerBtn.open span:nth-child(2){display: block;}
+#hamburgerBtn span:nth-child(1) {
+  display: block
+}
+
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
 
 nav li {
   text-decoration: none;
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-size: 1.4em;
-  list-style-type: none;  
+  list-style-type: none;
 }
+
 nav button {
   margin: .2rem 2vw;
   background: transparent;
   border: none;
   font-size: 2rem;
-  color:white
+  color: white
 }
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -316,26 +362,31 @@ nav ul {
   text-align: center;
   display: none;
 }
+
 nav {
   background-color: #a62639;
 }
-nav ul.open{
+
+nav ul.open {
   display: flex;
   left: 0%;
   flex-direction: column;
   background-color: #56494e;
   color: black;
   width: 100%;
-  }
+}
+
 nav ul li a {
   display: block;
   padding: .8rem 2vw;
   text-decoration: none;
   color: white;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
   background-color: #511c29;
 }
+
 nav {
   grid-column: 3/4;
   display: flex;
@@ -345,59 +396,33 @@ nav {
 }
 
 
-  /* Style all font awesome icons */
-/*.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
-  
-  /* Add a hover effect if you want 
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand 
-  
-  /* Facebook 
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  /* Twitter 
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }*/
-  body {
-	font-family:'Raleway', sans-serif ;
+
+body {
+  font-family: 'Raleway', sans-serif;
 }
 
 #main-grid {
   display: grid;
-  /*grid-template-columns: 1fr;
-  /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/
   height: auto;
   gap: 10px;
   margin: 10px 10px 0;
 }
-#main-grid h1{
+
+#main-grid h1 {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 2rem;
   font-weight: 800;
-  
+
 }
+
 #main-grid div {
   background-color: #a29c9b;
   border: 2px solid white;
   width: auto;
-    
+
 }
+
 #main-grid {
   font-family: 'Raleway', sans-serif;
   text-align: justify;
@@ -406,46 +431,57 @@ nav {
 }
 
 #spotlight {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #spotlight div {
-    margin: 20px;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
+  margin: 20px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
-#join{
+#join {
   display: none;
 }
 
 /* Discover HTML css*/
 /*888888888888888888888888888888888888888888888888888888*/
 
-.mtnhood p, .multfalls p, .tulip p, .orrivers p, .beach p{
+.mtnhood p,
+.multfalls p,
+.tulip p,
+.orrivers p,
+.beach p {
   padding: 20px;
-  font-family: 'Dosis', sans-serif;   
+  font-family: 'Dosis', sans-serif;
   font-size: 1.3rem;
   text-align: center;
   border: 2px solid white;
-  
+
 }
-.mtnhood h1, .multfalls h1, .tulip h1, .orrivers h1, .beach h1{
+
+.mtnhood h1,
+.multfalls h1,
+.tulip h1,
+.orrivers h1,
+.beach h1 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 2.8rem;
   color: #511c29;
 
 }
-picture img{
+
+picture img {
   border: solid #a62639;
-  
+
 }
+
 .label {
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -453,7 +489,8 @@ picture img{
   color: #511c29;
   padding: 20px;
 }
-#visits{
+
+#visits {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 1.8rem;
@@ -461,16 +498,19 @@ picture img{
 }
 
 /* JOIN css starts here***************************************************/
-#join-chambers h1{
-padding: 1rem;
-text-align: center;
-font-size: 3rem;
-color: #511c29;
+#join-chambers h1 {
+  padding: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  color: #511c29;
 }
-#membership, fieldset{
+
+#membership,
+fieldset {
   display: inline-block;
 }
-form fieldset{
+
+form fieldset {
   margin: 2rem 0;
   border: 2px solid white;
   border-radius: 10px;
@@ -481,47 +521,54 @@ form fieldset{
   width: 75%;
 
 }
-form legend{
+
+form legend {
   margin: 0 1rem;
   padding: 0 .5rem;
   font-family: 'Raleway', sans-serif;
   font-size: 1.8rem;
   color: #511c29;
 }
-form label.top, form div {
+
+form label.top,
+form div {
   display: block;
   padding-top: 1rem;
   font-family: 'Dosis', sans-serif;
   font-size: 1.3rem;
 }
+
 form label.top input {
   display: block;
   font-size: 1rem;
   border: solid 1px #a62639;
   border-radius: 4px;
   padding: .75rem;
-  color:#56494e;
+  color: #56494e;
   width: 100%;
   max-width: 20rem;
 }
-textarea{
+
+textarea {
   display: block;
   font-size: 1rem;
   border: solid 1px #a62639;
   border-radius: 4px;
   padding: .75rem;
-  color:#56494e;
+  color: #56494e;
   width: 100%;
   max-width: 20rem;
 }
+
 form label.sbs {
   display: block;
   padding: .75rem 0;
   font-family: 'Dosis', sans-serif;
   font-size: 1.3rem;
-  
+
 }
-form input.submitBtn{
+
+form input.submitBtn {
   border: none;
   background-color: #a62639;
   color: white;
@@ -532,10 +579,12 @@ form input.submitBtn{
   width: 96%;
   max-width: 20rem;
 }
+
 form label.top input:required {
   border-left: #a62639 solid 6px;
 }
-form label.top input:required:valid{
+
+form label.top input:required:valid {
   border-left: green solid 6px;
 }
 
@@ -547,17 +596,17 @@ form label.top input:required:valid{
   justify-content: center;
   float: right;
   width: 75%;
-  }
+}
 
 #membership div {
   margin: 20px;
   height: 100%;
   background-color: white;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
-#gold h1{
+#gold h1 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 1.8rem;
@@ -570,12 +619,14 @@ form label.top input:required:valid{
   font-size: 1.8rem;
   color: #511c29;
 }
- #bronze h1 {
+
+#bronze h1 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 1.8rem;
   color: #511c29;
 }
+
 #nprofit h1 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -583,7 +634,7 @@ form label.top input:required:valid{
   color: #511c29;
 }
 
-#membership p{
+#membership p {
   text-align: left;
   margin: 0;
   font-family: 'Dosis', sans-serif;
@@ -592,14 +643,16 @@ form label.top input:required:valid{
 }
 
 /* DIRECTORY HTML css starts here***************************************************/
-.list{
+.list {
   display: flex;
   flex-direction: column;
 }
-.list img{
+
+.list img {
   display: none;
 }
-.list section{
+
+.list section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -609,28 +662,35 @@ form label.top input:required:valid{
   margin: 20px;
   padding: 20px;
 }
-.list h2{
+
+.list h2 {
   display: block;
   text-align: left;
   margin: 5px 0
 }
+
 .list p {
   padding: 0px 20px;
   margin: 10px 0;
 }
-#menu, button, .list{
+
+#menu,
+button,
+.list {
   color: #ffffff;
-  background-color:#a62639;
-  
+  background-color: #a62639;
+
 }
-.cards p{
+
+.cards p {
   text-align: center;
   justify-content: center;
   /*max-width: auto;*/
-  padding:  0 40px;
+  padding: 0 40px;
   word-break: break-all;
   margin: 1rem;
 }
+
 .cards section {
   margin: 0.25rem;
   padding: 1rem;
@@ -641,11 +701,13 @@ form label.top input:required:valid{
   align-items: center;
   color: #511c29;
 }
-.cards{
+
+.cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
-.cards img{
+
+.cards img {
   width: auto;
   max-width: 325px;
   box-shadow: 0 0 50px #777;
@@ -653,20 +715,54 @@ form label.top input:required:valid{
   border: 1px solid #a62639;
 }
 
+/* CONTACT PAGE starts here****************************************/
+#contactPage,
+#contactAddress,
+#contactPhone,
+#contactEmail {
+  margin: 2rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: .2rem 2%;
+  flex-direction: column;
+  /*justify-content: left;
+  float: left;*/
+  width: 80%;
+  border-radius: 10px;
+  border-color: #eee;
+}
+
+#contactPage h1,
+h2,
+h3 {
+  color: #511c29;
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+}
+
+#contactPage {
+  padding: .5rem;
+  background-color: #a29c9b;
+  border-radius: 1rem;
+  text-align: center;
+  min-width: 430px;
+}
+
+#contactPage p {
+  font-family: 'Raleway', sans-serif;
+  margin: 2px;
+  font-size: 25px;
+}
+
+
 
 
 @media only screen and (max-width: 460px) {
-  #join{
+  #join {
     display: none;
   }
+
   #spot3 {
     display: none;
+  }
 }
-}
-
-
-
-
-
-  
-

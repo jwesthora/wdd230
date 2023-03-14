@@ -5,21 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Week 8 assignment build the join page, use form field, get method, and action that directs to confirmation page named (thankyou.html) include first and last name in a text required field. ">
-        <link rel="icon" type="image/png" href="./images/favicon2.png">
-    <title>Join</title>
+    <meta name="description" content="create a contact page for people to contact Portland Commerce of Chambers">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" type="image/png" href="./images/favicon2.png">
+    <title>Contact us</title>
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@700&family=Dosis:wght@300&family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Playfair+Display:ital@1&family=Raleway&family=Rock+Salt&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
 </head>
 
 <body>
@@ -63,62 +61,40 @@
         </div>
     </header>
     <div id="join-chambers">
-         <h1>Join Portland Chambers of Commerce</h1>
+        <h1>Contact The Portland Chambers of Commerce</h1>
     </div>
     <main class="join-grid">
 
         <form method="get" action="thankyou.html">
             <fieldset>
-                <legend>Applicant information</legend>
-                <label class="top">First Name *<input type="text" name="fname" required></label>
-                <label class="top">Last Name *<input type="text" name="lname" required></label>
-                <label class="top">Cell Phone Number *<input type="tel" name="phone" required></label>
+                <legend>Contact Us!</legend>
+                <label class="top">Name *<input type="text" name="fname" required></label>
                 <label class="top">Email *<input type="email" name="email" placeholder="johndoe@gmail.com"
                         required></label>
-                <label class="top">Business Name *<input type="text" name="Bname" required></label>
-                <label class="top">Business Position Title<input type="text" name="Btitle"></label>
-                <label class="top" for="freeform">Descripe your Business to us:</label>
+                <label class="top" for="freeform">Questions or Comments:</label>
                 <br>
                 <textarea class="top" id="freeform" name="freeform" rows="6" cols="100">Enter text here...</textarea>
             </fieldset>
-
-
-            <fieldset>
-                <legend>Membership Level</legend>
-                <div>Choose Membership Level</div>
-                <label class="sbs"><input type="radio" name="audience" value="nonprofit"> None Profit</label>
-                <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze Membership</label>
-                <label class="sbs"><input type="radio" name="audience" value="silver"> Silver Membership</label>
-                <label class="sbs"><input type="radio" name="audience" value="gold"> Gold Membership</label>
-            </fieldset>
-
-
-            <input type="submit" value="Join Portland Commerce" class="submitBtn">
-            <input type="hidden" id="date" name="date" value="CurrentTime">
-            <input type="hidden" id="time" name="time" value="CurrentDate">
+            <input type="submit" value="Submit" class="submitBtn">
         </form>
-
-        <div id="membership">
-            <div id="gold">
-                <h1>Gold Membership</h1>
-                <p>$100 per year</p>
-                <p>4 spotlights per year on homepage, spotlights change weekly. </p>
+        <div id="contactPage">
+            <h2>Contact Us</h2>
+            <br>
+            <div id="contactAddress">
+                <h3>Address</h3>
+                <p>Portland Chamber of Commerce</p>
+                <p>10665 SW 155th Ave</p>
+                <p>Portland, OR 97219</p>
             </div>
-            <div id="silver">
-                <h1>Silver Membership</h1>
-                <P>$75 per year</P>
-                <p>3 spotlights per year on homepage, spotlights change weekly.</p>
+            <div id="contactPhone">
+                <h3>Phone</h3>
+                <p>(503) 5555-0555</p>
             </div>
-            <div id="bronze">
-                <h1>Bronze Membership</h1>
-                <p>$50. per year</p>
-                <p>2 spotlights per year on homepage, spotlights change weekly.</p>
+            <div id="contactEmail">
+                <h3>Email</h3>
+                <p>info@portland.org</p>
             </div>
-            <div id="nprofit">
-                <h1>Non Profit</h1>
-                <p>$0. per year</p>
-                <p>1 spotlights per year on homepage, spotlights change weekly.</p>
-            </div>
+        </div>
         </div>
 
 
@@ -149,6 +125,8 @@
         </div>
     </footer>
     <script src="./scripts/app.js"></script>
+
+
 </body>
 
 </html>
