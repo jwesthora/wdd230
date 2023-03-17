@@ -8,7 +8,7 @@
         "length": 14,
         "order": 1,
         "imageurl": "images/oregonzoo.jpeg",
-        "memberShip":""
+        "memberShip":"Gold"
       },
       {
         "bName": "Red Berry Barn",
@@ -18,7 +18,7 @@
         "length": 14,
         "order": 1,
         "imageurl": "images/berrybarn.jpeg",
-        "memberShip":""
+        "memberShip":"Silver"
       },
       {
         "bName": "Phils Pumpkin Patch",
@@ -28,7 +28,7 @@
         "length": 14,
         "order": 1,
         "imageurl": "images/pumpkinpatch.jpeg",
-        "memberShip":""
+        "memberShip":"Silver"
       },
       {
         "bName": "Beaverton Farmers Market",
@@ -38,7 +38,7 @@
         "length": 14,
         "order": 1,
         "imageurl": "images/beavertonfarmers.jpeg",
-        "memberShip":""
+        "memberShip":"Non-profit"
       },
       {
         "bName": "Crumbl Cookies",
@@ -48,7 +48,7 @@
         "length": 14,
         "order": 1,
         "imageurl": "images/crumblcookie.jpeg",
-        "memberShip":""
+        "memberShip":"Gold"
       },
       {
         "bName": "Natures Pet Market",
@@ -58,7 +58,7 @@
         "length": 14,
         "order": 1,
         "imageurl": "images/doggroomer.jpeg",
-        "memberShip":""
+        "memberShip":"Silver"
       },
       {
         "bName": "Voodoo Doughnuts",
@@ -68,7 +68,7 @@
         "length": 14,
         "order": 1,
         "imageurl": "images/voodoodoughnut.jpeg",
-        "memberShip":""
+        "memberShip":"Bronze"
       },
       {
         "bName": "Portland Japanese Garden",
@@ -78,7 +78,7 @@
         "length": 14,
         "order": 1,
         "imageurl": "images/japanesegarden.jpeg",
-        "memberShip":""
+        "memberShip":"Non-profit"
       },
       {
         "bName": "Omsi",
@@ -88,7 +88,7 @@
         "length": 14,
         "order": 1,
         "imageurl": "images/omsi.jpeg",
-        "memberShip":""
+        "memberShip":"Gold"
       }
     ]
 }
