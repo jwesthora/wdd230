@@ -6,6 +6,7 @@ async function getCompaniesData() {
     const data = await response.json();
     //console.table(data.companies); // reference the prophet array of data object
     displayCompanies(data.companies);
+
 }
 
 
