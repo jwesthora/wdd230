@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="build fresh page for customer to build their own smoothie">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <title>Fresh</title>
+    <link rel="stylesheet" href="styles/bountiful_small.css">
+    <link rel="stylesheet" href="styles/bountiful_medium.css">
+    <link rel="stylesheet" href="styles/bountiful_large.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@700&family=Dosis:wght@300&family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Playfair+Display:ital@1&family=Raleway&family=Rock+Salt&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="bountiful_header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="bountiful_images/smoothielogo.jpeg" alt="smoothie">
+                </a>
+            </div>
+            <div class="header1">
+                <h1>Berry Scoop</h1>
+            </div>
+
+            <div class="social">
+                <a href="https://www.facebook.com">
+                    <img src="bountiful_images/facebook.png" alt="Logo of Facebook">
+                </a>
+                <a href="https://www.instagram.com">
+                    <img src="bountiful_images/instagram.png" alt="Logo of Instagram">
+                </a>
+                <a href="https://www.tiktok.com/login">
+                    <img src="bountiful_images/tiktok.png" alt="Logo of tiktok">
+                </a>
+            </div>
+
+        </div>
+        <div class="date">
+            <aside></aside>
+        </div>
+        <nav class="navigation">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <main class="smoothie-grid">
+
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Lets get blending!</legend>
+                    <label class="top">First Name *<input type="text" name="fname" required></label>
+                    <label class="top">Email *<input type="email" name="email" placeholder="johndoe@gmail.com"required></label>
+                    <label class="top">Phone Number *<input type="tel" name="phone" required></label>
+                    <br>
+                    <label class="top" for="freeform">Any special instructions for your Smoothie?:</label>
+                    <br>
+                    <textarea class="top" id="freeform" name="freeform" rows="6"
+                        cols="100">Enter text here...</textarea>
+
+                </fieldset>
+        </main>
+        <footer>
+            <div class="footer-grid">
+                <div class="logo">
+                    <img src="bountiful_images/smoothielogo.jpeg" alt="smoothie">
+                </div>
+                <div class="contact">
+                    <p>bountifulfoods@gmail.com | (213) 536.1055</p>
+                </div>
+                <div class="author">
+                    &copy;
+                    <span id="year"></span>
+                    | Berry Scoop | Bountiful Foods | WDD 230 Project
+                </div>
+                <div class="map">
+                    <a href="https://goo.gl/maps/fXkapBtcC19sXMNr8">
+                        <h2>Encinita, California Map</h2>
+                    </a>
+                </div>
+                <p>This document was last modified:</p>
+                <p id="mode"></p>
+
+
+        </footer>
+        <script src="scripts/bountiful.js"></script>
+
+</body>
+
+</html>
