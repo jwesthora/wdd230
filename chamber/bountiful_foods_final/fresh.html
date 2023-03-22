@@ -57,19 +57,24 @@
     <main>
         <main class="smoothie-grid">
 
-            <form method="get" action="thankyou.html">
-                <fieldset>
-                    <legend>Lets get blending!</legend>
-                    <label class="top">First Name *<input type="text" name="fname" required></label>
-                    <label class="top">Email *<input type="email" name="email" placeholder="johndoe@gmail.com"required></label>
-                    <label class="top">Phone Number *<input type="tel" name="phone" required></label>
-                    <br>
-                    <label class="top" for="freeform">Any special instructions for your Smoothie?:</label>
-                    <br>
-                    <textarea class="top" id="freeform" name="freeform" rows="6"
-                        cols="100">Enter text here...</textarea>
+            <fieldset>
+                <legend>Lets get blending!</legend>
+                <label class="top">First Name *<input type="text" name="fname" required></label>
+                <label class="top">Email *<input type="email" name="email" placeholder="johndoe@gmail.com"
+                        required></label>
+                <label class="top">Phone Number *<input type="tel" name="phone" required></label>
+                <br>
+                <div class="fruit_choices">
+                    <button id="squareView"><i class="fa fa-th-large"></i></button>
+                    <button id="listView"><i class="fa fa-bars"></i></button>
+                </div>
 
-                </fieldset>
+                <div class="cards"></div>
+                <label class="top" for="freeform">Any special instructions for your Smoothie?:</label>
+                <br>
+                <textarea class="top" id="freeform" name="freeform" rows="6" cols="100">Enter text here...</textarea>
+
+            </fieldset>
         </main>
         <footer>
             <div class="footer-grid">
