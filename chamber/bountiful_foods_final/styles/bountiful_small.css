@@ -1,2 +1,92 @@
-@media only screen and (max-width: 460px) {
+header,
+footer {
+    background-color: #95b8d1;
+    color: #333333;
+    text-align: center;
+    display: flex;
+  flex-direction: column;
 }
+.bountiful-header {
+    display: flex;
+}
+.header1 {
+    color: #333333;
+    font-family: Dancing Script;
+    font-size: 50px;
+}
+.social img {
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+footer .map {
+    background-color: #edafb8;
+    text-decoration: none;
+    cursor: pointer;
+}
+footer {
+    color: #333333;
+    font-size: 45px;
+    font-family: Dancing script;
+    text-align: center;
+    display: grid;
+    font-size: 20px;
+}
+.navigation li a {
+    color: #333333;
+    font-family: Playfair;
+    font-size: 30px;
+    display: flex;
+    text-decoration: none;
+}
+.navigation{
+    background-color: #edafb8;
+}
+nav li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+.logo,
+img {
+    padding: 1rem;
+    background-color: #95b8d1;
+
+}
+main h1{
+    color: #333333;
+    text-align: center;
+    font-family: playfair;
+    font-size: 45px;
+}
+main{
+    background-color: #e8ddb5;
+    align-content: center;
+}
+.beaches, .shopping, .gardens{
+    text-align: center;
+}
+.beaches p, .shopping p, .gardens p{
+    text-align: center;
+    padding: 5rem;
+    font-family: Playfair;
+    font-size: 30px;
+    color: #333333
+}
+.button{
+    text-align: center;
+    background-color: #95b8d1;
+    padding: 2rem;
+}
+.submitBtn{
+    color: #333333;
+    background-color: #edafb8;
+    font-family: Playfair;
+    font-size: 30px;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+@media only screen and (max-width: 460px) {}
