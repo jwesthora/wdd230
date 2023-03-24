@@ -1,2 +1,50 @@
 @media only screen and (min-width: 36rem) {
+    .bountiful_header, footer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+    nav {
+        grid-row: 1;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        top: initial;
+        position: initial;
+        justify-content: center;
+    }
+    nav ul li a{
+        color: #333333;
+        font-style: bold;
+        font-size: 35px;
+    }
+
+    nav ul.open {
+        display: flex;
+        left: initial;
+        flex-direction: row;
+        background-color: initial;
+        width: 100%;
+    }
+
+    #hamburgerBtn span:nth-child(1) {
+        display: none
+    }
+
+    #hamburgerBtn span:nth-child(2) {
+        display: none;
+    }
+
+    #hamburgerBtn.open span:nth-child(1) {
+        display: none
+    }
+
+    #hamburgerBtn.open span:nth-child(2) {
+        display: none;
+    }
+
+    
 }
