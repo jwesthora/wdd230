@@ -39,6 +39,8 @@ function displayResults(weatherdata){
 
 
 }
+
+
 function drawWeather(  ) {
     
   var fahrenheit = 32
