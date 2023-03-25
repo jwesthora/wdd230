@@ -1,21 +1,4 @@
-function drawWeather(  ) {
-    
-  var fahrenheit = 32
-  const windSpeed = 10
-  
-  document.getElementById('ws').innerHTML = `Wind Speed: ${windSpeed} mph`
-  if (fahrenheit <= 50 && windSpeed > 3.0){
-    const windChillVar = parseFloat(35.74 + (0.6215 * fahrenheit) - (35.75 * (windSpeed ** 0.16)) + (0.4275 * fahrenheit * (windSpeed ** 0.16))).toFixed(1);
-    document.getElementById("wc").innerHTML = `Wind Chill: ${windChillVar}&deg;F`
-  } 
-  else {
-    const windChillVar = "none";
-    document.getElementById("wc").innerHTML = `Wind Chill: ${windChillVar}`
 
-    
-    
-  }
-}
 
 drawWeather()
 
@@ -56,5 +39,21 @@ function displayResults(weatherdata){
 
 
 }
-
+function drawWeather(  ) {
+    
+  var fahrenheit = 32
+  const windSpeed = 10
   
+  document.getElementById('ws').innerHTML = `Wind Speed: ${windSpeed} mph`
+  if (fahrenheit <= 50 && windSpeed > 3.0){
+    const windChillVar = parseFloat(35.74 + (0.6215 * fahrenheit) - (35.75 * (windSpeed ** 0.16)) + (0.4275 * fahrenheit * (windSpeed ** 0.16))).toFixed(1);
+    document.getElementById("wc").innerHTML = `Wind Chill: ${windChillVar}&deg;F`
+  } 
+  else {
+    const windChillVar = "none";
+    document.getElementById("wc").innerHTML = `Wind Chill: ${windChillVar}`
+
+    
+    
+  }
+}
