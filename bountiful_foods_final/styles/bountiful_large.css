@@ -1,0 +1,59 @@
+/* large view....*/
+@media only screen and (min-width: 64rem) {
+    .bountiful_header, footer {
+        display: flex;
+    }
+
+    .logo,
+    img {
+        padding: 2rem;
+        background-color: #95b8d1;
+
+    }
+
+    nav {
+        grid-row: 1;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        top: initial;
+        position: initial;
+        justify-content: center;
+    }
+    nav ul li a{
+        color: #333333;
+        font-style: bold;
+        font-size: 35px;
+    }
+
+    nav ul.open {
+        display: flex;
+        left: initial;
+        flex-direction: row;
+        background-color: initial;
+        width: 100%;
+    }
+
+    #hamburgerBtn span:nth-child(1) {
+        display: none
+    }
+
+    #hamburgerBtn span:nth-child(2) {
+        display: none;
+    }
+
+    #hamburgerBtn.open span:nth-child(1) {
+        display: none
+    }
+
+    #hamburgerBtn.open span:nth-child(2) {
+        display: none;
+    }
+    .home_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

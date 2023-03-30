@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Build home page for drinks made from fruit in southern California, link to fresh page, include (3)social media links, inlcude 3 day weather and information on total order from customer. ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <title>Bountiful Foods</title>
+    <link rel="stylesheet" href="styles/bountiful_small.css">
+    <link rel="stylesheet" href="styles/bountiful_medium.css">
+    <link rel="stylesheet" href="styles/bountiful_large.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@700&family=Dosis:wght@300&family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Playfair+Display:ital@1&family=Raleway&family=Rock+Salt&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="bountiful_header">
+
+            <div class="header1">
+                <h1>Bountiful Foods</h1>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="bountiful_images/smoothielogo.jpeg" alt="smoothie">
+                </a>
+            </div>
+
+        </div>
+        <div class="date">
+            <aside></aside>
+        </div>
+        <nav class="navigation">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="https://www.facebook.com">
+                <img src="bountiful_images/facebook.png" alt="Logo of Facebook">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="bountiful_images/instagram.png" alt="Logo of Instagram">
+            </a>
+            <a href="https://www.tiktok.com/login">
+                <img src="bountiful_images/tiktok.png" alt="Logo of tiktok">
+            </a>
+        </div>
+
+    </header>
+    <main>
+        <div class="story">
+            <h1>What is our story</h1>
+            <img src="bountiful_images/startedstory.jpeg" alt="children gardening">
+            <p>Being a young mother of two little girls, I found it difficult to get healthy fruits and veggies in my kids. It seemed that all my kids wanted was snacks, to only be hungry 30 minutes later. 
+                I wanted to make healthier options for my kids that involved more items from the earth, namely more fruits and veggies. I started making "green smoothies" in an effort to sneak healthier items 
+                into my childrens daily consumption. During our health journey as a family, income was low and prevented me from buying off season fruit, which was more costly. I started doing favors for neighbors in exchange for the fruit that grew on their trees.
+                I remember coming home with laundry baskets full of lemons and grapefruits. We made a variety of smoothies and shared them with friends. Word got out about our smoothie making and soon was born, Berry Scoop, by Bountiful foods. The earth provides so much flavor and nutrition for our bodies
+                We want to make the fruits and veggies available in a more nutrition dense and palatable way that our body can easily absorb. We break down the fruit and veggies so your body can absorb the nutrition faster and hope you enjoy it as well. </p>
+        </div>
+        <div class="history">
+            <h1>Some fun facts about Encinita's history</h1>
+            <img src="bountiful_images/kumeeyaay.jpeg" alt="Kumeeyaay people">
+            <p>Encinitas is located in the traditional territories of the Kumeyaay people, who are the original inhabitants of the region. 
+                The Kumeyaay people have lived in the area for thousands of years, and their descendants continue to reside in San Diego County 
+                and maintain their cultural traditions and heritage. The Kumeyaay people were skilled hunters, gatherers, and farmers, and they 
+                had a rich culture that included storytelling, music, and art. They also had a deep spiritual connection to the land and the natural 
+                environment, and their traditional knowledge of the local ecosystems has been invaluable in conservation efforts. Today, the Kumeyaay 
+                people continue to assert their sovereignty and fight for the recognition of their rights and contributions to the region's history and culture.</p>
+        </div>
+        <div class="Contact_US">
+            <h1>Contact Us!</h1>
+            <p>bountifulfoods@gmail.com | (213) 536.1055</p>
+            <a href="https://goo.gl/maps/fXkapBtcC19sXMNr8">
+                <h2>Encinita, California Map</h2>
+            </a>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer-grid">
+            <div class="logo">
+                <img src="bountiful_images/smoothielogo.jpeg" alt="smoothie">
+            </div>
+            <div class="contact">
+                <p>bountifulfoods@gmail.com | (213) 536.1055</p>
+            </div>
+            <div class="author">
+                &copy;
+                <span id="year"></span>
+                | Berry Scoop | Bountiful Foods | WDD 230 Project
+            </div>
+            <div class="map">
+                <a href="https://goo.gl/maps/fXkapBtcC19sXMNr8">
+                    <h2>Encinita, California Map</h2>
+                </a>
+            </div>
+
+            <p id="last-modified"></p>
+        </div>
+
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/last_modified.js"></script>
+    <script src="scripts/fruit.json"></script>
+    <script src="scripts/fruit_drink.js"></script>
+    <script src="scripts/navigation.js"></script>
+
+</body>
+
+</html>

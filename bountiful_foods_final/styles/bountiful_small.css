@@ -1,0 +1,260 @@
+header,
+footer {
+    flex-direction: column;
+    background-color: #95b8d1;
+    color: #333333;
+    text-align: center;
+    
+}
+
+.bountiful-header {
+    display: flex;
+}
+
+.header1 {
+    color: #333333;
+    font-family: Dancing Script;
+    font-size: 50px;
+}
+
+.social img {
+    padding: .5rem;
+    border-radius: 12px;
+}
+
+footer .map {
+    background-color: #edafb8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    color: #333333;
+    font-size: 45px;
+    font-family: Dancing script;
+    text-align: center;
+    display: grid;
+    font-size: 20px;
+}
+#hamburgerBtn span:nth-child(1) {
+    display: block
+  }
+  
+  #hamburgerBtn span:nth-child(2) {
+    display: none;
+  }
+  
+  #hamburgerBtn.open span:nth-child(1) {
+    display: none
+  }
+  
+  #hamburgerBtn.open span:nth-child(2) {
+    display: block;
+  }
+  
+  nav li {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Playfair Display;
+    font-size: 1.4em;
+    list-style-type: none;
+  }
+  
+  nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #333333
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /*position: fixed;*/
+    left: 100%;
+    top: 9rem;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    display: none;
+  }
+  
+  nav {
+    background-color: #edafb8;
+  }
+  
+  nav ul.open {
+    display: flex;
+    left: 0%;
+    flex-direction: column;
+    background-color: #333333;
+    color: #edafb8;
+    width: 100%;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #edafb8;
+  }
+  
+  nav ul li a:hover {
+    background-color: #95b8d1;
+    color: #333333;
+  }
+  
+  nav {
+    grid-column: 3/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.logo,
+img {
+    padding: .5rem;
+    background-color: #95b8d1;
+
+}
+
+main h1 {
+    color: #333333;
+    text-align: center;
+    font-family: playfair;
+    font-size: 45px;
+}
+
+main {
+    background-color: #e8ddb5;
+    align-content: center;
+}
+
+.beaches,
+.shopping,
+.gardens {
+    text-align: center;
+}
+
+.beaches p,
+.shopping p,
+.gardens p {
+    text-align: center;
+    padding: 2rem;
+    font-family: Playfair;
+    font-size: 30px;
+    color: #333333
+}
+
+.button {
+    text-align: center;
+    background-color: #95b8d1;
+    padding: 2rem;
+}
+
+.submitBtn {
+    color: #333333;
+    background-color: #edafb8;
+    font-family: Playfair;
+    font-size: 30px;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+main p{
+  font-family: Playfair Display;
+}
+/*CSS for FRESH page*************************************************************/
+.smoothie-grid .top label{
+  font-size: 25px;
+  display: block;
+  font-size: 2rem;
+  border: solid 5px #95b8d1;
+  border-radius: 10px;
+  padding: 0.75rem;
+  color: #333333;
+  width: 100%;
+  max-width: 30rem;
+}
+.smoothie-grid legend, p{
+  font-size: 45px;
+  padding: 2rem;
+}
+.smoothie-grid h1{
+  font-size: 50px;
+  padding: 2rem;
+}
+.fruit-container label{
+  font-size: 30px;
+  padding: 2rem;
+}
+form label.top input{
+  display: block;
+  font-size: 2rem;
+  border: solid 5px #95b8d1;
+  border-radius: 10px;
+  padding: 0.75rem;
+  color: #333333;
+  width: 100%;
+  max-width: 30rem;
+}
+#fruit-container label{
+  display: block;
+  font-size: 2rem;
+  border: solid 5px #95b8d1;
+  border-radius: 10px;
+  padding: 0.75rem;
+  color: #333333;
+  width: 100%;
+  max-width: 30rem;
+}
+.fresh-button input{
+  color: #333333;
+  background-color: #edafb8;
+  font-family: Playfair;
+  font-size: 50px;
+  padding: 2rem;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.fresh-button{
+  padding: 2rem;
+}
+.top{
+  font-size: 25px;
+}
+/*CSS for ABOUT US page*************************************************/
+.story {
+  text-align: center;
+}
+.history{
+  text-align: center;
+}
+.Contact_US{
+  text-align: center;
+}
+.story h1, .history h1, .Contact_US h1{
+  background-color: #edafb8;
+}
+.story p, .history p, .Contact_US p{
+  padding: 1rem;
+  margin: 2rem;
+  font-size: 30px;
+}
+.Contact_US h2{
+  text-decoration: none;
+  color: #333333;
+  background-color: #edafb8;
+  font-size: 50px;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 460px) {
+  
+}

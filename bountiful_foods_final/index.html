@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Build home page for drinks made from fruit in southern California, link to fresh page, include (3)social media links, inlcude 3 day weather and information on total order from customer. ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <title>Bountiful Foods</title>
+    <link rel="stylesheet" href="styles/bountiful_small.css">
+    <link rel="stylesheet" href="styles/bountiful_medium.css">
+    <link rel="stylesheet" href="styles/bountiful_large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@700&family=Dosis:wght@300&family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Playfair+Display:ital@1&family=Raleway&family=Rock+Salt&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@700&family=Dosis:wght@300&family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Playfair+Display:ital@1&family=Raleway&family=Rock+Salt&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="bountiful_header">
+
+            <div class="header1">
+                <h1>Bountiful Foods</h1>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="bountiful_images/smoothielogo.jpeg" alt="smoothie">
+                </a>
+            </div>
+
+        </div>
+        <div class="date">
+            <aside></aside>
+        </div>
+        <nav class="navigation">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="https://www.facebook.com">
+                <img src="bountiful_images/facebook.png" alt="Logo of Facebook">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="bountiful_images/instagram.png" alt="Logo of Instagram">
+            </a>
+            <a href="https://www.tiktok.com/login">
+                <img src="bountiful_images/tiktok.png" alt="Logo of tiktok">
+            </a>
+        </div>
+
+    </header>
+    <main>
+
+
+        <div class="button">
+            <h1>Need some refreshing?</h1>
+            <a href="fresh.html">
+                <input type="submit" value="Click Here to get started" class="submitBtn">
+            </a>
+            <h2>Specialty Drinks</h2>
+            <div id="info-card">
+                <p>You have submitted <span id="num-drinks"></span> specialty drinks.</p>
+            </div>
+            <script src="fruit_drink.js"></script>
+            <script>
+              // Update the information card with the number of drinks submitted by the user
+              let numDrinks = localStorage.getItem('numDrinks') || 0;
+              document.getElementById('num-drinks').textContent = numDrinks;
+            </script>
+            
+        </div>
+        <div class="home_grid">
+            <div class="beaches">
+                <h1>Encinitas Beaches</h1>
+                <picture>
+                    <img src="bountiful_images/encinitasbeach.jpeg" data-src="bountiful_images/encinitasbeach.jpeg"
+                        alt="picture of beach" loading="lazy">
+                </picture>
+                <p> Encinitas variety of beaches range from soft to rocky sand. Go on an adventure around Encinitas
+                    Rocky
+                    Beach, where you will find our Berry Scoop smoothie bar. Take a stroll on the beach, while sipping a
+                    local freash fruit smoothie. </p>
+            </div>
+            <div class="shopping">
+                <h1>Encinitas Shopping</h1>
+                <picture>
+                    <img src="bountiful_images/downtown_encinitas.jpeg" data-src="bountiful_images/encinitasbeach.jpeg"
+                        alt="picture of beach" loading="lazy">
+                </picture>
+                <p> Encinitas variety of beaches range from soft to rocky sand. Go on an adventure around Encinitas
+                    Rocky
+                    Beach, where you will find our Berry Scoop smoothie bar. Take a stroll on the beach, while sipping a
+                    local freash fruit smoothie. </p>
+            </div>
+            <div class="gardens">
+                <h1>Encinitas Gardens</h1>
+                <picture>
+                    <img src="bountiful_images/encinitasgarden.png" data-src="bountiful_images/encinitasbeach.jpeg"
+                        alt="picture of beach" loading="lazy">
+                </picture>
+                <p> Encinitas variety of beaches range from soft to rocky sand. Go on an adventure around Encinitas
+                    Rocky
+                    Beach,
+                    where you will find our Berry Scoop smoothie bar. Take a stroll on the beach, while sipping a local
+                    freash
+                    fruit smoothie. </p>
+            </div>
+        </div>
+        <a class="weatherwidget-io" href="https://forecast7.com/en/33d16n117d35/carlsbad/?unit=us"
+            data-label_1="CARLSBAD" data-label_2="WEATHER" data-font="Times New Roman" data-days="3"
+            data-theme="candy">CARLSBAD WEATHER</a>
+        <script>
+            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+        </script>
+        <div id="weather_head">
+            <h1>Carlsbad Weather Forecast</h1>
+            <div id="weather"></div>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="footer-grid">
+            <div class="logo">
+                <img src="bountiful_images/smoothielogo.jpeg" alt="smoothie">
+            </div>
+            <div class="contact">
+                <p>bountifulfoods@gmail.com | (213) 536.1055</p>
+            </div>
+            <div class="author">
+                &copy;
+                <span id="year"></span>
+                | Berry Scoop | Bountiful Foods | WDD 230 Project
+            </div>
+            <div class="map">
+                <a href="https://goo.gl/maps/fXkapBtcC19sXMNr8">
+                    <h2>Encinita, California Map</h2>
+                </a>
+            </div>
+
+            <p id="last-modified"></p>
+        </div>
+
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/last_modified.js"></script>
+    <script src="scripts/fruit.json"></script>
+    <script src="scripts/fruit_drink.js"></script>
+    <script src="scripts/navigation.js"></script>
+
+</body>
+
+</html>
