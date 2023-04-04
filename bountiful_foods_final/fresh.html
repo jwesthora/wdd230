@@ -75,7 +75,7 @@
                 </div>
                 <div id="fruit-container">
 
-                    <label for="fruit1">Fruit 1:</label>
+                    <label for="fruit-select">Fruit 1:</label>
                     <select id="fruit-select" name="fruit1">
                         <!-- Populate with fruit options from fruit.json data source -->
                     </select><br><br>
@@ -91,16 +91,20 @@
                     </select><br><br>
                     <label class="top" for="freeform">Any special instructions for your smoothie?</label>
                     <textarea class="top" id="freeform" name="freeform" rows="8" cols="55">Enter text here...</textarea>
-                    <div class="fresh-button">
+
+                    <!--<div class="fresh-button">
                         <a href="index.html">
                             <input type="submit" value="Submit">
                         </a>
-                    </div>
-
-
+                    </div>-->
                 </div>
 
             </form>
+            <div class="fresh-button">
+                <form action="index.html">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </div>
     </main>
 
@@ -125,7 +129,7 @@
                     <h2>Encinita, California Map</h2>
                 </a>
             </div>
-            
+
             <p id="last-modified"></p>
         </div>
 
